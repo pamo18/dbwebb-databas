@@ -1,0 +1,27 @@
+<%- include("header", {title: title}); %>
+
+<h1>Create new product</h1>
+
+<p>Create a new product below.</p>
+
+<form class="label-center" method="post">
+    <fieldset>
+        <legend>Create product</legend>
+
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name">
+
+        <label for="pris">Price</label>
+        <input id="pris" type="number" name="pris">
+
+        <label for="bild">Image link</label>
+        <input id="bild" type="text" name="bild">
+
+        <label for="info">Beskrivning</label>
+        <input id="info" type="text" name="info">
+
+        <input type="submit" name="doit" value="Create">
+    </fieldset>
+</form>
+
+<%- include("footer"); %>

@@ -1,0 +1,149 @@
+html {
+    background-color: #5e5e5e;
+}
+
+body {
+    position: relative;
+    margin: 8px auto;
+    background: #fff;
+    width: 1100px;
+    min-height: 1200px;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: #ddd;
+    padding: 1em;
+}
+
+main {
+    min-height: 24em;
+}
+
+.center-link {
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.center-link a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.center-link li {
+    list-style-type: none;
+}
+
+
+.image-frame {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.image {
+    width: 100%;
+}
+
+table {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+th {
+    border-bottom: 1px solid #999;
+}
+
+td {
+    padding: 5px;
+}
+
+td.center {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: black;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    padding-right: 1em;
+}
+
+fieldset {
+    border: 2px solid black;
+}
+
+form.label-center {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+}
+
+form.label-center {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+form.label-center input[type=submit] {
+    margin-top: 2em;
+}
+
+form.label-center label,
+form.label-center input[type=text],
+form.label-center input[type=number] {
+    text-align: center;
+    margin: 0 auto;
+    height: 20px;
+    margin-bottom: 4px;
+}
+
+form.label-center label {
+    display: inline-block;
+    width: 5em;
+    padding-top: 1em;
+}
+
+form.label-center label::after {
+    content: ":";
+}
+
+form.label-center input[type=text],
+form.label-center input[type=number] {
+    display: block;
+    width: 20em;
+    height: 25px;
+}
+
+footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+footer p {
+    text-align: center;
+    padding: 2em;
+}

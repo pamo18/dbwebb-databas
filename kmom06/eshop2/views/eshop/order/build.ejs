@@ -1,0 +1,27 @@
+<%- include("../header", {title: title}); %>
+
+<h1>Build order <%= order %></h1>
+
+<form class="build_order" method="post" action="/eshop/order/build">
+    <fieldset>
+        <legend>Build order</legend>
+
+        <input id="id" type="hidden" name="id" value="<%= order %>">
+
+        <label for="customer">Products</label>
+            <select name="product_id">
+
+<% for (const row of res) { %>
+            <option value="<%= row.id %> " type="text" name="product">
+                <%= row.namn %>
+            </option>
+<% }; %>
+            <label for="quantity">Quantity</label>
+            <input id="quantity" type="number" name="quantity">
+
+            </select>
+        <input type="submit" name="doit" value="Add">
+    </fieldset>
+</form>
+
+<%- include("../footer"); %>

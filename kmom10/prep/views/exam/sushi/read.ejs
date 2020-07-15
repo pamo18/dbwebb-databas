@@ -1,0 +1,32 @@
+<%- include("../header", {title: title, siteRoute: siteRoute}); %>
+
+<h1>Manage Sushi (CRUD)</h1>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<table class="wide center">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Details</th>
+        <th>TV Date</th>
+        <th>Image</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td class="center"><%= row.id %></td>
+        <td class="center"><%= row.name %></td>
+        <td class="center"><%= row.details %></td>
+        <td class="center"><%= row.tv_date %></td>
+        <td class="center"><%= row.image %></td>
+        <td class="center"><a href="<%= siteRoute %>/sushi/update/<%= row.id %>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+        <td><a href="<%= siteRoute %>/sushi/delete/<%= row.id %>"><i class="far fa-trash-alt"></i></a></td>
+    </tr>
+<% }; %>
+</table>
+
+<p class="outer-button"><a class="button" href="<%= siteRoute %>/sushi/create">Create <i class="fas fa-plus"></i></a></p><br>
+
+<%- include("../footer"); %>

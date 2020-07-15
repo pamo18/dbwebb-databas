@@ -1,0 +1,32 @@
+<%- include("../header", {title: title, siteRoute: siteRoute}); %>
+
+<h1>Manage Competitions (CRUD)</h1>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<table class="wide center">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Details</th>
+        <th>Date</th>
+        <th>Update</th>
+        <th>Delete</th>
+        <th>Choose Sushi</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td class="center"><%= row.id %></td>
+        <td class="center"><%= row.name %></td>
+        <td class="center"><%= row.details %></td>
+        <td class="center"><%= row.competiton_date %></td>
+        <td class="center"><a href="<%= siteRoute %>/competition/update/<%= row.id %>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+        <td><a href="<%= siteRoute %>/competition/delete/<%= row.id %>"><i class="far fa-trash-alt"></i></a></td>
+        <td><a href="<%= siteRoute %>/competition/connect/<%= row.id %>"><i class="fas fa-tasks"></i></a></td>
+    </tr>
+<% }; %>
+</table>
+
+<p class="outer-button"><a class="button" href="<%= siteRoute %>/competition/create">Create <i class="fas fa-plus"></i></a></p><br>
+
+<%- include("../footer"); %>

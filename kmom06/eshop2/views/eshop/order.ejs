@@ -1,0 +1,38 @@
+<%- include("header", {title: title}); %>
+
+<h1>Orders</h1>
+
+<p>Here are all the orders.</p>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Created</th>
+        <th>Customer ID</th>
+        <th>Name</th>
+        <th>Order rows</th>
+        <th>Status</th>
+        <th>Add products</th>
+        <th>View order</th>
+        <th>Place order</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td class="center"><%= row.id %></td>
+        <td class="center"><%= row.created %></td>
+        <td class="center"><%= row.kund_id %></td>
+        <td class="center"><%= row.kund_namn %></td>
+        <td class="center"><%= row.order_rows %></td>
+        <td class="center"><%= row.order_status %></td>
+        <td class="center"><a href="/eshop/order/build/<%= row.id %>">Add <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+        <td class="center"><a href="/eshop/order/view_order/<%= row.id %>">View <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+        <td class="center"><a href="/eshop/order/place/<%= row.id %>">Place <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+    </tr>
+<% }; %>
+</table>
+
+<p><a href="/eshop/order/create">Create order</a></p>
+
+<%- include("footer"); %>

@@ -1,0 +1,23 @@
+<%- include("../header", {title: title}); %>
+
+<h1>Create new order</h1>
+
+<form class="build_order" method="post">
+    <fieldset>
+        <legend>Create order</legend>
+
+        <label for="customer">Customer</label>
+            <select name="id">
+
+<% for (const row of res) { %>
+            <option value="<%= row.id %> " type="text" name="customer">
+                <%= row.fornamn + ' ' + row.efternamn %>
+            </option>
+<% }; %>
+
+            </select>
+        <input type="submit" name="doit" value="Create">
+    </fieldset>
+</form>
+
+<%- include("../footer"); %>

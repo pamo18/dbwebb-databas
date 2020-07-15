@@ -1,0 +1,26 @@
+<%- include("header", {title: title}); %>
+
+<h1>All the different sushi types</h1>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<table class="wide center">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Details</th>
+        <th>TV Date</th>
+        <th>Image</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td class="center"><%= row.id %></td>
+        <td class="center"><%= row.name %></td>
+        <td class="center"><%= row.details %></td>
+        <td class="center"><%= row.tv_date %></td>
+        <td class="center"><%= row.image %></td>
+    </tr>
+<% }; %>
+</table>
+
+<%- include("footer"); %>

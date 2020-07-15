@@ -1,0 +1,12 @@
+<%- include("header", {title: title, siteRoute: siteRoute}); %>
+
+<h1><span class="logo">Welcome to Säpo, we know what your up to!</span></h1>
+
+<p class="outer-button"><a class="button" href="<%= siteRoute %>/logg">View Logg</a></p>
+<p class="outer-button"><a class="button" href="<%= siteRoute %>/search">Search Logg</a></p>
+
+<div class="image-frame">
+    <div class="image1"><img class="image" src="/img/wanted.jpg" alt="Wanted"></div>
+</div>
+
+<%- include("footer"); %>

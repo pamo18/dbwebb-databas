@@ -1,0 +1,20 @@
+<%- include("../header", {title: title, siteRoute: siteRoute}); %>
+
+<h1>Choose from the options below for item <%=item%></h1>
+
+<pre><%#= JSON.stringify(cat[0].kategori, null, 4) %></pre>
+
+<form class="narrow center bigger" method="post" action="<%= siteRoute %>/competition/connect">
+    <fieldset>
+        <input type="hidden" name="id" value="<%= item %>">
+<% for (const row of options) { %>
+        <input type="checkbox" name="options" value="<%= row.id %>"<%
+        for (const r in res) { if (res[r].sushi_id == row.id) { %> checked <% }} %>><%= row.name %><br>
+<% }; %>
+        <input class="button" type="submit" name="doit" value="Update">
+    </fieldset>
+</form>
+
+<p class="outer-button back"><a class="button" href="<%= siteRoute %>/competition/read">Back</a></p>
+
+<%- include("../footer"); %>

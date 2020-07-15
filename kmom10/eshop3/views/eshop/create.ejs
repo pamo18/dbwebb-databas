@@ -1,0 +1,25 @@
+<%- include("header", {title: title}); %>
+
+<h1>Create new product</h1>
+
+<p>Create a new product below.</p>
+
+<form class="narrow center" method="post">
+    <fieldset>
+        <label class="center stack" for="name">Name</label>
+        <input class="wide-field center" id="name" type="text" name="name">
+
+        <label class="center stack" for="pris">Price</label>
+        <input class="wide-field center" id="pris" type="number" name="pris">
+
+        <label class="center stack" for="bild">Image link</label>
+        <input class="wide-field center" id="bild" type="text" name="bild">
+
+        <label class="center stack" for="info">Beskrivning</label>
+        <textarea class="text-field center" id="info" name="info"></textarea>
+
+        <input class="button" type="submit" name="doit" value="Create">
+    </fieldset>
+</form>
+
+<%- include("footer"); %>

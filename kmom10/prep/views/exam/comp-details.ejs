@@ -1,0 +1,33 @@
+<%- include("header", {title: title, siteRoute: siteRoute}); %>
+
+<h1>Competitions <%= res[0].id %> details</h1>
+<h2 class="center"><%= res[0].name + ': ' + res[0].details %></h2>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<h3 class="center">Date: <%= res[0].competiton_date %></h3><br>
+
+<table class="wide center">
+    <tr>
+        <th>ID</th>
+        <th>Sushi Name</th>
+        <th>Details</th>
+        <th>Image</th>
+        <th>Total votes</th>
+        <th>Vote +1</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td class="center"><%= row.sushi_id %></td>
+        <td class="center"><%= row.sushi_name %></td>
+        <td class="center"><%= row.sushi_details %></td>
+        <td class="center"><%= row.sushi_image %></td>
+        <td class="center"><%= row.votes %></td>
+        <td class="center"><% if (row.sushi_id) { %><a href="<%= siteRoute %>/vote/?comp=<%= row.id + '&sushi=' + row.sushi_id%>"><i class="fas fa-thumbs-up"></i></a><% } %></td>
+    </tr>
+<% }; %>
+</table>
+
+<p class="outer-button back"><a class="button" href="<%= siteRoute %>/competition-view">Back</a></p>
+
+<%- include("footer"); %>

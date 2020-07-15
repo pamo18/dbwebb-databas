@@ -1,0 +1,29 @@
+<%- include("header", {title: title}); %>
+
+<h1>Log</h1>
+
+<form class="narrow center gap" method="post" action="/eshop/log/">
+    <fieldset>
+        <label for="filter">Filter</label>
+        <input id="filter" type="text" name="filter">
+        <input class="button" type="submit" name="doit" value="Filter">
+    </fieldset>
+</form>
+
+<table class="narrow center">
+    <tr>
+        <th>ID</th>
+        <th>Time</th>
+        <th class="left">Event</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td><%= row.id %></td>
+        <td><%= row.time %></td>
+        <td class="left"><%= row.event %></td>
+    </tr>
+<% }; %>
+</table>
+
+
+<%- include("footer"); %>

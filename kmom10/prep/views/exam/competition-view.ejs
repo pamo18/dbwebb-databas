@@ -1,0 +1,26 @@
+<%- include("header", {title: title, siteRoute: siteRoute}); %>
+
+<h1>All the different competitions</h1>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<table class="wide center">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Details</th>
+        <th>Date</th>
+        <th>Click for Info</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td class="center"><%= row.id %></td>
+        <td class="center"><%= row.name %></td>
+        <td class="center"><%= row.details %></td>
+        <td class="center"><%= row.competiton_date %></td>
+        <td class="center"><a href="<%= siteRoute %>/competition-view/<%= row.id %>"><span style="padding-left: 10px; padding-right: 10px;"<i class="fas fa-info"></i></span></a></td>
+    </tr>
+<% }; %>
+</table>
+
+<%- include("footer"); %>

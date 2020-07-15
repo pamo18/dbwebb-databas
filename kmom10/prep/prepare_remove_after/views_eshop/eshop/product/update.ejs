@@ -1,0 +1,33 @@
+<%- include("../header", {title: title}); %>
+
+<h1>Update product details</h1>
+
+<p>These are the details for product <%= product %>.</p>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<% res = res[0] %>
+<form class="narrow center form-stack" method="post" action="/eshop/product/update">
+    <fieldset>
+        <label class="center stack" for="id">Id</label>
+        <input class="narrow-field center" id="id" type="text" name="id" readonly value="<%= res.id %>">
+
+        <label class="center stack" for="namn">Name</label>
+        <input class="wide-field center" id="namn" type="text" name="namn" value="<%= res.namn %>">
+
+        <label class="center stack" for="pris">Price</label>
+        <input class="wide-field center" id="pris" type="number" name="pris" value="<%= res.pris %>">
+
+        <label class="center stack" for="bild">Image Link</label>
+        <input class="wide-field center" id="bild" type="text" name="bild" value="<%= res.bild_lank %>">
+
+        <label class="center stack" for="info">Description</label>
+        <textarea class="text-field center" id="info"  name="info"><%= res.beskrivning %></textarea>
+
+        <input class="button" type="submit" name="doit" value="Update">
+    </fieldset>
+</form>
+
+<p class="outer-button back"><a class="button" href="/eshop/product/view">Back</a></p>
+
+<%- include("../footer"); %>

@@ -1,0 +1,283 @@
+html {
+    background-color: #131e29;
+    font-family: sans-serif;
+}
+
+body {
+    position: relative;
+    margin: 8px auto;
+    width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    padding-bottom: 0.3em;
+    margin-top: 2em;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    background-color: #0a176f;
+    padding: 1em;
+}
+
+.logo {
+    color: #0a176f;
+    font-weight: bold;
+}
+
+.banner img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.image-frame {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.image {
+    width: 100%;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #2c3d4e;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    min-height: 1000px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+}
+
+.nav-image {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    height: 40px;
+}
+
+.outer-button {
+    margin-top: 3em;
+}
+
+.outer-button.back {
+    position: absolute;
+    bottom: 0;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #0a176f;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+}
+
+.button.nav {
+    padding: 8px;
+}
+
+input.button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.button:hover {
+    background-color: #4caf50;
+    text-decoration: none;
+}
+
+form {
+    color: black;
+    border-radius: 5px;
+}
+
+fieldset {
+    padding: 2em;
+    border: 2px solid #143460;
+    background-color: #e4edfb;
+}
+
+.stack {
+    display: block;
+    width: 5em;
+    padding-top: 1em;
+}
+
+.wide-field {
+    width: 25em;
+    height: 25px;
+}
+
+.narrow-field {
+    width: 4em;
+    height: 25px;
+}
+
+.text-field {
+    width: 25em;
+    height: 25px;
+    max-width: 600px;
+    max-height: 200px;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #143460;
+    background-color: #e4edfb;
+}
+
+th {
+    border-bottom: 2px solid black;
+    background-color: #5151ff;
+    color: white;
+    font-size: 1.1em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.fixed {
+    table-layout: fixed;
+}
+
+.slim-column {
+    width: 8%;
+}
+
+.normal-column {
+    width: 15%;
+}
+
+.wide-column {
+    width: 30%;
+}
+
+tr:hover:not(:first-child) {
+    background-color: #414161;
+    color: white;
+}
+
+tr:hover a {
+    color: yellow;
+}
+
+table.invoice_details td,
+table.invoice_details th {
+    border-right: 2px solid black;
+}
+
+table.invoice_details tr:hover {
+    background-color: #e4edfb;
+    color: black;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.narrow {
+    width: 800px;
+}
+
+.wide {
+    width: 1100px;
+}
+
+.bigger {
+    font-size: 1.1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gap {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.important {
+    text-decoration: underline;
+}
+
+.price::after {
+    content: ":-";
+}
+
+.invoice-header {
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.image-frame_invoice {
+    width: 100px;
+    float: left;
+}
+
+.invoice-image {
+    width: 100%;
+}
+
+.company {
+    float: left;
+}
+
+.invoice_order {
+    float: right;
+}
+
+.total {
+    font-size: 2em;
+}
+
+footer {
+    width: 1200px;
+    background-color: #0a176f;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+footer p {
+    text-align: center;
+    padding: 3em;
+}

@@ -1,0 +1,30 @@
+<%- include("header", {title: title}); %>
+
+<h1>Product information</h1>
+
+<p>This is details page for all products</p>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Image Link</th>
+        <th>Description</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td><%= row.id %></td>
+        <td><%= row.namn %></td>
+        <td><%= row.pris %></td>
+        <td><%= row.bild_lank %></td>
+        <td><%= row.beskrivning %></td>
+        <td>
+        <a href="/eshop/update/<%= row.id %>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+        <a href="/eshop/delete/<%= row.id %>"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+    </td>
+    </tr>
+<% }; %>
+</table>
+
+<%- include("footer"); %>

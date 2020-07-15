@@ -1,0 +1,28 @@
+<%- include("../header", {title: title}); %>
+
+<h1>Order <%= order %> plocklista</h1>
+
+<table class="narrow center bold">
+    <tr>
+        <th>Product ID</th>
+        <th>Quantity</th>
+        <th>Shelf</th>
+        <th>In Stock</th>
+        <th>Stock diff</th>
+        <th>Stock Status</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td><%= row.ProduktID %></td>
+        <td><%= row.Antal %></td>
+        <td><%= row.Hylla %></td>
+        <td><%= row.Lagersaldo %></td>
+        <td><%= row.Diff %></td>
+        <td><%= row.Lagerstatus %></td>
+    </tr>
+<% }; %>
+</table>
+
+<p class="outer-button back"><a class="button" href="/eshop/order">Back</a></p>
+
+<%- include("../footer"); %>

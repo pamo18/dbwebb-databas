@@ -1,0 +1,39 @@
+@import url("default.css");
+
+html {
+    background-color: black;
+}
+
+.site-header {
+    color: white;
+    background-color: #3d3d56;
+}
+
+body {
+    background-color: #121349;
+    color: white;
+}
+
+.om-links a {
+    color: white;
+}
+
+.om-links a:hover {
+    color: white;
+}
+
+#site-footer .me-tag a {
+    color: white;
+}
+
+#site-footer .me-tag a:hover {
+    color: white;
+}
+
+#site-footer a {
+    color: white;
+}
+
+#site-footer a:hover {
+    color: white;
+}

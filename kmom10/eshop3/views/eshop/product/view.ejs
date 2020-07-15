@@ -1,0 +1,32 @@
+<%- include("../header", {title: title}); %>
+
+<h1>Manage Products</h1>
+
+<p>Here you can view, edit and delete a product as well as manage product categeories.</p>
+
+<table class="wide center fixed">
+    <tr>
+        <th class="slim-column">ID</th>
+        <th class="normal-column">Name</th>
+        <th class="slim-column">Price</th>
+        <th class="normal-column">Image</th>
+        <th class="wide-column">Description</th>
+        <th class="slim-column">Edit</th>
+        <th class="slim-column">Delete</th>
+        <th class="slim-column">Category</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td><%= row.id %></td>
+        <td><%= row.namn %></td>
+        <td class="price"><%= row.pris %></td>
+        <td><%= row.bild_lank %></td>
+        <td><%= row.beskrivning %></td>
+        <td><a href="/eshop/product/update/<%= row.id %>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+        <td><a href="/eshop/product/delete/<%= row.id %>"><i class="far fa-trash-alt"></i></a></td>
+        <td><a href="/eshop/product/add_category/<%= row.id %>"><i class="fas fa-tasks"></i></a></td>
+    </tr>
+<% }; %>
+</table>
+
+<%- include("../footer"); %>

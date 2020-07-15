@@ -1,0 +1,27 @@
+<%- include("../header", {title: title, siteRoute: siteRoute}); %>
+
+<h1>Create new</h1>
+
+<p>Create a new item below.</p>
+
+<form class="narrow center" method="post">
+    <fieldset>
+        <label class="center stack" for="name">Name</label>
+        <input class="wide-field center" id="name" type="text" name="name">
+
+        <label class="center stack" for="tv">TV Date</label>
+        <input class="wide-field center" id="tv" type="date" name="tv" value="yyyy/mm/dd">
+
+        <label class="center stack" for="image">Image</label>
+        <input class="wide-field center" id="image" type="text" name="image">
+
+        <label class="center stack" for="details">Details</label>
+        <textarea class="text-field center" id="details" name="details"></textarea>
+
+        <input class="button" type="submit" name="doit" value="Create">
+    </fieldset>
+</form>
+
+<p class="outer-button back"><a class="button" href="<%= siteRoute %>/sushi/read">Back</a></p>
+
+<%- include("../footer"); %>

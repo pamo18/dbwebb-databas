@@ -1,0 +1,58 @@
+--
+-- Paul Moreland
+-- pamo18
+-- 2019/03/28
+--
+
+--
+-- Insert into eshop
+--
+DELETE FROM person;
+DELETE FROM organisation;
+DELETE FROM kategori;
+DELETE FROM logg;
+
+
+LOAD DATA LOCAL INFILE 'person.csv'
+INTO TABLE person
+CHARSET utf8
+FIELDS
+    TERMINATED BY ','
+    ENCLOSED BY '"'
+LINES
+    TERMINATED BY '\n'
+IGNORE 1 LINES
+;
+
+LOAD DATA LOCAL INFILE 'organisation.csv'
+INTO TABLE organisation
+CHARSET utf8
+FIELDS
+    TERMINATED BY ','
+    ENCLOSED BY '"'
+LINES
+    TERMINATED BY '\n'
+IGNORE 1 LINES
+;
+
+LOAD DATA LOCAL INFILE 'kategori.csv'
+INTO TABLE kategori
+CHARSET utf8
+FIELDS
+    TERMINATED BY ','
+    ENCLOSED BY '"'
+LINES
+    TERMINATED BY '\n'
+IGNORE 1 LINES
+;
+
+LOAD DATA LOCAL INFILE 'logg.csv'
+INTO TABLE logg
+CHARSET utf8
+FIELDS
+    TERMINATED BY ','
+    ENCLOSED BY '"'
+LINES
+    TERMINATED BY '\n'
+IGNORE 1 LINES
+;

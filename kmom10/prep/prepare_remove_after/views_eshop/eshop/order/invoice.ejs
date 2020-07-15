@@ -1,0 +1,63 @@
+<%- include("../header", {title: title}); %>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<div class="invoice-header">
+    <div class="image-frame_invoice">
+        <div class="image1"><img class="invoice-image" src="/img/cd.png" alt="cd"></div>
+    </div>
+    <div class="company">
+        <h1>CDOFF</h1>
+    </div>
+    <div class="invoice_order">
+        <h2>Invoice number: <%= res[0].faktura_id %></h2>
+    </div>
+</div>
+
+<h3 class="important">Invoice status: <%= res[0].status %> <% if(res[0].paid) { %>(<%=res[0].paid %>)<% } %></h3>
+<p>Order sent: <%= res[0].sent %> (<%= res[0].order_rader %> items)</p>
+<table class="invoice_details narrow center">
+    <tr>
+        <th>Customer</th>
+        <th>Company</th>
+    </tr>
+    <tr>
+        <td>Customer ID: <%= res[0].kund_id %> <br>
+        <%= res[0].kund_namn %> <br>
+        <%= res[0].adress %> <br>
+        <%= res[0].postnummer %> <br>
+        <%= res[0].ort %> <br>
+        <%= res[0].land %> <br>
+        Tel. <%= res[0].telefon %> </td>
+        <td>CDOff<br>
+            Box 00<br>
+            En väg<br>
+            Någonstans<br>
+            111 32<br>
+            Sverige<br>
+            Tel. 070 001 0023</td>
+    </tr>
+</table><br>
+<table class="narrow center">
+    <tr>
+        <th>Products</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td class="center"><%= row.produkt_namn %></td>
+        <td class="center price"><%= row.pris %></td>
+        <td class="center"><%= row.antal %></td>
+        <td class="center price"><%= row.sum_row %></td>
+    </tr>
+<% }; %>
+
+</table>
+
+<% if(res[0].total) { %><div class="total"><p class="price">Total to pay: <%= res[0].total %></p></div> <% } %>
+<p>Thank you for shopping at CDOff, we look forward to seeing you again!<p>
+<p class="outer-button back"><a class="button" href="/eshop/order">Back</a></p>
+
+<%- include("../footer"); %>

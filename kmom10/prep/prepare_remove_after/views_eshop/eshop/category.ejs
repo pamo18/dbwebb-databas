@@ -1,0 +1,22 @@
+<%- include("header", {title: title}); %>
+
+<h1>Product categories</h1>
+
+<p>Here are all the product catagories.</p>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<table class="narrow center bold">
+    <tr>
+        <th>Product catagories</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td class="center"><a href="/eshop/category/<%= row.typ %>"><%= row.typ %></a></td>
+    </tr>
+<% }; %>
+</table>
+
+<p class="outer-button"><a class="button" href="/eshop/product">View all products</a></p>
+
+<%- include("footer"); %>

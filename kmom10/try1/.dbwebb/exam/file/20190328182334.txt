@@ -1,0 +1,1019 @@
+20190328182334
+.
+total 120
+-rw-r--r--@  1 office  staff  10244 Mar 28 18:13 .DS_Store
+drwxr-xr-x   3 office  staff     96 Mar 28 13:34 .dbwebb
+-rw-r--r--   1 office  staff   9668 Mar 28 13:34 INSTRUKTION.md
+-rw-r--r--   1 office  staff   3893 Mar 28 13:34 README_FIRST.md
+-rw-r--r--@  1 office  staff   3328 Mar 28 16:55 cli.js
+drwxr-xr-x   3 office  staff     96 Jan 23 12:52 config
+drwxr-xr-x   4 office  staff    128 Mar 28 18:10 doc
+-rw-r--r--   1 office  staff   1434 Mar 28 13:41 index.js
+drwxr-xr-x   3 office  staff     96 Jan 23 12:52 middleware
+drwxr-xr-x  70 office  staff   2240 Mar 26 11:49 node_modules
+-rw-r--r--   1 office  staff  19444 Mar 26 11:48 package-lock.json
+-rw-r--r--   1 office  staff    447 Mar 26 11:48 package.json
+drwxr-xr-x  10 office  staff    320 Feb 22 19:22 public
+drwxr-xr-x   4 office  staff    128 Mar 28 13:39 route
+drwxr-xr-x   4 office  staff    128 Mar 28 13:39 sql
+drwxr-xr-x   3 office  staff     96 Mar 28 13:40 src
+drwxr-xr-x   4 office  staff    128 Mar 28 14:24 views
+./middleware
+total 8
+-rw-r--r--  1 office  staff  523 Jan 23 12:52 index.js
+./route
+total 16
+-rw-r--r--  1 office  staff   344 Jan 23 12:52 index.js
+-rw-r--r--  1 office  staff  1811 Mar 28 17:22 sapo.js
+./config
+total 0
+drwxr-xr-x  3 office  staff  96 Mar 28 13:37 db
+./config/db
+total 8
+-rw-r--r--  1 office  staff  104 Mar 28 13:42 sapo.json
+./node_modules/sqlstring
+total 48
+-rw-r--r--  1 office  staff   859 Feb 25  2018 HISTORY.md
+-rw-r--r--  1 office  staff  1118 Mar 31  2017 LICENSE
+-rw-r--r--  1 office  staff  7969 Oct  2  2017 README.md
+-rw-r--r--  1 office  staff    45 Oct  2  2017 index.js
+drwxr-xr-x  3 office  staff    96 Feb 21 13:26 lib
+-rw-r--r--  1 office  staff  2391 Feb 21 13:26 package.json
+./node_modules/sqlstring/lib
+total 16
+-rw-r--r--  1 office  staff  5858 Feb 25  2018 SqlString.js
+./node_modules/destroy
+total 32
+-rw-r--r--  1 office  staff  1099 Aug 14  2014 LICENSE
+-rw-r--r--  1 office  staff  2185 Jan 13  2016 README.md
+-rw-r--r--  1 office  staff  1043 Jan 13  2016 index.js
+-rw-r--r--  1 office  staff  1808 Feb 21 13:26 package.json
+./node_modules/@types
+total 0
+drwxr-xr-x   6 office  staff   192 Feb 21 13:26 bluebird
+drwxr-xr-x   6 office  staff   192 Feb 21 13:26 mysql
+drwxr-xr-x  48 office  staff  1536 Feb 21 13:26 node
+./node_modules/@types/bluebird
+total 128
+-rw-r--r--  1 office  staff   1183 Dec 13 22:05 LICENSE
+-rw-r--r--  1 office  staff    493 Dec 13 22:05 README.md
+-rw-r--r--  1 office  staff  51855 Dec 13 22:05 index.d.ts
+-rw-r--r--  1 office  staff   1644 Feb 21 13:26 package.json
+./node_modules/@types/mysql
+total 64
+-rw-r--r--  1 office  staff   1162 May 31  2018 LICENSE
+-rw-r--r--  1 office  staff    627 May 31  2018 README.md
+-rw-r--r--  1 office  staff  18460 May 31  2018 index.d.ts
+-rw-r--r--  1 office  staff   1880 Feb 21 13:26 package.json
+./node_modules/@types/node
+total 1376
+-rw-r--r--  1 office  staff    1183 Feb 14 17:52 LICENSE
+-rw-r--r--  1 office  staff    2285 Feb 14 17:52 README.md
+-rw-r--r--  1 office  staff    2898 Feb 14 17:52 assert.d.ts
+-rw-r--r--  1 office  staff    5645 Feb 14 17:52 async_hooks.d.ts
+-rw-r--r--  1 office  staff    1588 Feb 14 17:52 base.d.ts
+-rw-r--r--  1 office  staff     314 Feb 14 17:52 buffer.d.ts
+-rw-r--r--  1 office  staff   18388 Feb 14 17:52 child_process.d.ts
+-rw-r--r--  1 office  staff   15894 Feb 14 17:52 cluster.d.ts
+-rw-r--r--  1 office  staff      51 Feb 14 17:52 console.d.ts
+-rw-r--r--  1 office  staff    8933 Feb 14 17:52 constants.d.ts
+-rw-r--r--  1 office  staff   26017 Feb 14 17:52 crypto.d.ts
+-rw-r--r--  1 office  staff    4678 Feb 14 17:52 dgram.d.ts
+-rw-r--r--  1 office  staff   12115 Feb 14 17:52 dns.d.ts
+-rw-r--r--  1 office  staff     483 Feb 14 17:52 domain.d.ts
+-rw-r--r--  1 office  staff    1446 Feb 14 17:52 events.d.ts
+-rw-r--r--  1 office  staff  124967 Feb 14 17:52 fs.d.ts
+-rw-r--r--  1 office  staff   41132 Feb 14 17:52 globals.d.ts
+-rw-r--r--  1 office  staff    9828 Feb 14 17:52 http.d.ts
+-rw-r--r--  1 office  staff   50593 Feb 14 17:52 http2.d.ts
+-rw-r--r--  1 office  staff    1675 Feb 14 17:52 https.d.ts
+-rw-r--r--  1 office  staff    4180 Feb 14 17:52 index.d.ts
+-rw-r--r--  1 office  staff  123102 Feb 14 17:52 inspector.d.ts
+-rw-r--r--  1 office  staff      56 Feb 14 17:52 module.d.ts
+-rw-r--r--  1 office  staff   12047 Feb 14 17:52 net.d.ts
+-rw-r--r--  1 office  staff    5585 Feb 14 17:52 os.d.ts
+-rw-r--r--  1 office  staff    4698 Feb 21 13:26 package.json
+-rw-r--r--  1 office  staff    5920 Feb 14 17:52 path.d.ts
+-rw-r--r--  1 office  staff    9420 Feb 14 17:52 perf_hooks.d.ts
+-rw-r--r--  1 office  staff      51 Feb 14 17:52 process.d.ts
+-rw-r--r--  1 office  staff     375 Feb 14 17:52 punycode.d.ts
+-rw-r--r--  1 office  staff     564 Feb 14 17:52 querystring.d.ts
+-rw-r--r--  1 office  staff    6117 Feb 14 17:52 readline.d.ts
+-rw-r--r--  1 office  staff   17185 Feb 14 17:52 repl.d.ts
+-rw-r--r--  1 office  staff   16377 Feb 14 17:52 stream.d.ts
+-rw-r--r--  1 office  staff     238 Feb 14 17:52 string_decoder.d.ts
+-rw-r--r--  1 office  staff     826 Feb 14 17:52 timers.d.ts
+-rw-r--r--  1 office  staff   19203 Feb 14 17:52 tls.d.ts
+-rw-r--r--  1 office  staff    2122 Feb 14 17:52 trace_events.d.ts
+drwxr-xr-x  4 office  staff     128 Feb 21 13:26 ts3.1
+-rw-r--r--  1 office  staff    1590 Feb 14 17:52 tty.d.ts
+-rw-r--r--  1 office  staff    3544 Feb 14 17:52 url.d.ts
+-rw-r--r--  1 office  staff   11451 Feb 14 17:52 util.d.ts
+-rw-r--r--  1 office  staff     890 Feb 14 17:52 v8.d.ts
+-rw-r--r--  1 office  staff    2475 Feb 14 17:52 vm.d.ts
+-rw-r--r--  1 office  staff    5899 Feb 14 17:52 worker_threads.d.ts
+-rw-r--r--  1 office  staff    6222 Feb 14 17:52 zlib.d.ts
+./node_modules/@types/node/ts3.1
+total 16
+-rw-r--r--  1 office  staff  810 Feb 14 17:52 index.d.ts
+-rw-r--r--  1 office  staff  245 Feb 14 17:52 util.d.ts
+./node_modules/process-nextick-args
+total 32
+-rw-r--r--  1 office  staff  1045 Dec 11  2017 index.js
+-rw-r--r--  1 office  staff  1064 Sep  9  2015 license.md
+-rw-r--r--  1 office  staff  1529 Feb 21 13:26 package.json
+-rw-r--r--  1 office  staff   450 Dec 11  2017 readme.md
+./node_modules/.bin
+total 0
+lrwxr-xr-x  1 office  staff  14 Feb 21 13:26 mime -> ../mime/cli.js
+./node_modules/wcwidth
+total 48
+-rw-r--r--  1 office  staff    13 May 12  2014 .npmignore
+-rw-r--r--  1 office  staff  1581 May 12  2014 LICENSE
+-rw-r--r--  1 office  staff   887 Jul 29  2014 Readme.md
+-rw-r--r--  1 office  staff  3078 May 12  2014 combining.js
+drwxr-xr-x  3 office  staff    96 Mar 26 11:48 docs
+-rw-r--r--  1 office  staff  3141 Jul 27  2014 index.js
+-rw-r--r--  1 office  staff  1687 Mar 26 11:48 package.json
+drwxr-xr-x  3 office  staff    96 Mar 26 11:48 test
+./node_modules/wcwidth/test
+total 8
+-rw-r--r--  1 office  staff  1471 Jul 29  2014 index.js
+./node_modules/wcwidth/docs
+total 8
+-rw-r--r--  1 office  staff  3218 May 12  2014 index.md
+./node_modules/content-type
+total 48
+-rw-r--r--  1 office  staff   436 Sep 11  2017 HISTORY.md
+-rw-r--r--  1 office  staff  1089 Sep 11  2017 LICENSE
+-rw-r--r--  1 office  staff  2796 Sep 11  2017 README.md
+-rw-r--r--  1 office  staff  4809 Sep 11  2017 index.js
+-rw-r--r--  1 office  staff  2187 Feb 21 13:26 package.json
+./node_modules/ms
+total 32
+-rw-r--r--  1 office  staff  2764 May 16  2017 index.js
+-rw-r--r--  1 office  staff  1077 May 16  2017 license.md
+-rw-r--r--  1 office  staff  1595 Feb 21 13:26 package.json
+-rw-r--r--  1 office  staff  1721 May 16  2017 readme.md
+./node_modules/content-disposition
+total 64
+-rw-r--r--  1 office  staff    866 Dec  9  2016 HISTORY.md
+-rw-r--r--  1 office  staff   1089 Sep 19  2014 LICENSE
+-rw-r--r--  1 office  staff   5148 Dec  9  2016 README.md
+-rw-r--r--  1 office  staff  10399 Dec  9  2016 index.js
+-rw-r--r--  1 office  staff   2139 Feb 21 13:26 package.json
+./node_modules/methods
+total 40
+-rw-r--r--  1 office  staff   427 Jan 18  2016 HISTORY.md
+-rw-r--r--  1 office  staff  1180 Jan 18  2016 LICENSE
+-rw-r--r--  1 office  staff  1694 Jan 18  2016 README.md
+-rw-r--r--  1 office  staff  1040 Jan 18  2016 index.js
+-rw-r--r--  1 office  staff  2033 Feb 21 13:26 package.json
+./node_modules/proxy-addr
+total 56
+-rw-r--r--  1 office  staff  2737 Jul 26  2018 HISTORY.md
+-rw-r--r--  1 office  staff  1094 Jul 25  2017 LICENSE
+-rw-r--r--  1 office  staff  4498 Jul 26  2018 README.md
+-rw-r--r--  1 office  staff  5977 Feb 20  2018 index.js
+-rw-r--r--  1 office  staff  2252 Feb 21 13:26 package.json
+./node_modules/depd
+total 72
+-rw-r--r--  1 office  staff   2060 Jan 12  2018 History.md
+-rw-r--r--  1 office  staff   1094 Jan 12  2018 LICENSE
+-rw-r--r--  1 office  staff  10025 Jan 12  2018 Readme.md
+-rw-r--r--  1 office  staff  10669 Jan 12  2018 index.js
+drwxr-xr-x  4 office  staff    128 Feb 21 13:26 lib
+-rw-r--r--  1 office  staff   2157 Feb 21 13:26 package.json
+./node_modules/depd/lib
+total 0
+drwxr-xr-x  3 office  staff   96 Feb 21 13:26 browser
+drwxr-xr-x  5 office  staff  160 Feb 21 13:26 compat
+./node_modules/depd/lib/compat
+total 24
+-rw-r--r--  1 office  staff  2229 Jan 12  2018 callsite-tostring.js
+-rw-r--r--  1 office  staff   338 Jan 12  2018 event-listener-count.js
+-rw-r--r--  1 office  staff  1421 Jan 12  2018 index.js
+./node_modules/depd/lib/browser
+total 8
+-rw-r--r--  1 office  staff  1512 Jul 27  2017 index.js
+./node_modules/core-util-is
+total 64
+-rw-r--r--  1 office  staff   1077 Nov 20  2015 LICENSE
+-rw-r--r--  1 office  staff     67 Nov 20  2015 README.md
+-rw-r--r--  1 office  staff  16278 Nov 20  2015 float.patch
+drwxr-xr-x  3 office  staff     96 Feb 21 13:26 lib
+-rw-r--r--  1 office  staff   1575 Feb 21 13:26 package.json
+-rw-r--r--  1 office  staff   2101 Nov 20  2015 test.js
+./node_modules/core-util-is/lib
+total 8
+-rw-r--r--  1 office  staff  3021 Nov 20  2015 util.js
+./node_modules/range-parser
+total 40
+-rw-r--r--  1 office  staff   832 Jun  1  2016 HISTORY.md
+-rw-r--r--  1 office  staff  1178 Jun  1  2016 LICENSE
+-rw-r--r--  1 office  staff  1996 Jun  1  2016 README.md
+-rw-r--r--  1 office  staff  2805 Jun  1  2016 index.js
+-rw-r--r--  1 office  staff  2279 Feb 21 13:26 package.json
+./node_modules/bytes
+total 40
+-rw-r--r--  1 office  staff  1509 Aug 31  2017 History.md
+-rw-r--r--  1 office  staff  1153 Jan  2  2017 LICENSE
+-rw-r--r--  1 office  staff  3888 Aug 31  2017 Readme.md
+-rw-r--r--  1 office  staff  3390 Aug 31  2017 index.js
+-rw-r--r--  1 office  staff  1936 Feb 21 13:26 package.json
+./node_modules/express
+total 256
+-rw-r--r--   1 office  staff  107836 Oct 26  1985 History.md
+-rw-r--r--   1 office  staff    1249 Oct 26  1985 LICENSE
+-rw-r--r--   1 office  staff    4777 Oct 26  1985 Readme.md
+-rw-r--r--   1 office  staff     224 Oct 26  1985 index.js
+drwxr-xr-x  10 office  staff     320 Feb 21 13:26 lib
+drwxr-xr-x   3 office  staff      96 Feb 21 13:26 node_modules
+-rw-r--r--   1 office  staff    4020 Feb 21 13:26 package.json
+./node_modules/express/node_modules
+total 0
+drwxr-xr-x  8 office  staff  256 Feb 21 13:26 statuses
+./node_modules/express/node_modules/statuses
+total 48
+-rw-r--r--  1 office  staff   957 Oct 20  2017 HISTORY.md
+-rw-r--r--  1 office  staff  1172 Oct 20  2017 LICENSE
+-rw-r--r--  1 office  staff  3458 Oct 20  2017 README.md
+-rw-r--r--  1 office  staff  1797 Oct 20  2017 codes.json
+-rw-r--r--  1 office  staff  2088 Oct 20  2017 index.js
+-rw-r--r--  1 office  staff  2587 Feb 21 13:26 package.json
+./node_modules/express/lib
+total 152
+-rw-r--r--  1 office  staff  14270 Oct 26  1985 application.js
+-rw-r--r--  1 office  staff   2349 Oct 26  1985 express.js
+drwxr-xr-x  4 office  staff    128 Feb 21 13:26 middleware
+-rw-r--r--  1 office  staff  12298 Oct 26  1985 request.js
+-rw-r--r--  1 office  staff  26964 Oct 26  1985 response.js
+drwxr-xr-x  5 office  staff    160 Feb 21 13:26 router
+-rw-r--r--  1 office  staff   5972 Oct 26  1985 utils.js
+-rw-r--r--  1 office  staff   3326 Oct 26  1985 view.js
+./node_modules/express/lib/middleware
+total 16
+-rw-r--r--  1 office  staff  853 Oct 26  1985 init.js
+-rw-r--r--  1 office  staff  885 Oct 26  1985 query.js
+./node_modules/express/lib/router
+total 56
+-rw-r--r--  1 office  staff  14883 Oct 26  1985 index.js
+-rw-r--r--  1 office  staff   3296 Oct 26  1985 layer.js
+-rw-r--r--  1 office  staff   4149 Oct 26  1985 route.js
+./node_modules/encodeurl
+total 40
+-rw-r--r--  1 office  staff   238 Jan 22  2018 HISTORY.md
+-rw-r--r--  1 office  staff  1089 Jan 22  2018 LICENSE
+-rw-r--r--  1 office  staff  3855 Jan 22  2018 README.md
+-rw-r--r--  1 office  staff  1586 Jan 22  2018 index.js
+-rw-r--r--  1 office  staff  2154 Feb 21 13:26 package.json
+./node_modules/promise-mysql
+total 48
+-rw-r--r--  1 office  staff  1083 Jun 22  2018 LICENSE
+-rw-r--r--  1 office  staff  6457 Jun 22  2018 README.md
+-rw-r--r--  1 office  staff  2224 Jun 22  2018 index.d.ts
+-rw-r--r--  1 office  staff   397 Jun 22  2018 index.js
+drwxr-xr-x  6 office  staff   192 Feb 21 13:26 lib
+-rw-r--r--  1 office  staff  1873 Feb 21 13:26 package.json
+./node_modules/promise-mysql/lib
+total 32
+-rw-r--r--  1 office  staff  3804 Jun 22  2018 connection.js
+-rw-r--r--  1 office  staff   515 Jun 22  2018 helper.js
+-rw-r--r--  1 office  staff  1242 Jun 22  2018 pool.js
+-rw-r--r--  1 office  staff   513 Jun 22  2018 poolConnection.js
+./node_modules/string_decoder
+total 32
+-rw-r--r--  1 office  staff   899 Oct 26  1985 .travis.yml
+-rw-r--r--  1 office  staff  2338 Oct 26  1985 LICENSE
+-rw-r--r--  1 office  staff  1801 Oct 26  1985 README.md
+drwxr-xr-x  3 office  staff    96 Feb 21 13:26 lib
+-rw-r--r--  1 office  staff  1766 Feb 21 13:26 package.json
+./node_modules/string_decoder/lib
+total 24
+-rw-r--r--  1 office  staff  9465 Oct 26  1985 string_decoder.js
+./node_modules/merge-descriptors
+total 40
+-rw-r--r--  1 office  staff   363 Jan 18  2016 HISTORY.md
+-rw-r--r--  1 office  staff  1167 Jan 18  2016 LICENSE
+-rw-r--r--  1 office  staff  1213 May 22  2015 README.md
+-rw-r--r--  1 office  staff  1215 Jan 18  2016 index.js
+-rw-r--r--  1 office  staff  2014 Feb 21 13:26 package.json
+./node_modules/array-flatten
+total 32
+-rw-r--r--  1 office  staff  1103 Mar 15  2014 LICENSE
+-rw-r--r--  1 office  staff  1245 May  9  2015 README.md
+-rw-r--r--  1 office  staff  1195 Jul  9  2015 array-flatten.js
+-rw-r--r--  1 office  staff  1682 Feb 21 13:26 package.json
+./node_modules/safe-buffer
+total 88
+-rw-r--r--  1 office  staff   1081 Oct 26  1985 LICENSE
+-rw-r--r--  1 office  staff  19555 Oct 26  1985 README.md
+-rw-r--r--  1 office  staff   8738 Oct 26  1985 index.d.ts
+-rw-r--r--  1 office  staff   1529 Oct 26  1985 index.js
+-rw-r--r--  1 office  staff   1691 Feb 21 13:26 package.json
+./node_modules/ee-first
+total 32
+-rw-r--r--  1 office  staff  1099 Aug 15  2014 LICENSE
+-rw-r--r--  1 office  staff  2617 May 25  2015 README.md
+-rw-r--r--  1 office  staff  1684 May 25  2015 index.js
+-rw-r--r--  1 office  staff  1817 Feb 21 13:26 package.json
+./node_modules/inherits
+total 40
+-rw-r--r--  1 office  staff   749 Aug 20  2013 LICENSE
+-rw-r--r--  1 office  staff  1625 May 16  2013 README.md
+-rw-r--r--  1 office  staff   192 Sep  7  2016 inherits.js
+-rw-r--r--  1 office  staff   672 May 16  2013 inherits_browser.js
+-rw-r--r--  1 office  staff  1547 Feb 21 13:26 package.json
+./node_modules/iconv-lite
+total 56
+-rw-r--r--   1 office  staff   268 Jun 13  2017 .travis.yml
+-rw-r--r--   1 office  staff  4268 May  8  2018 Changelog.md
+-rw-r--r--   1 office  staff  1064 Nov  9  2011 LICENSE
+-rw-r--r--   1 office  staff  6534 Apr  7  2018 README.md
+drwxr-xr-x  12 office  staff   384 Feb 21 13:26 encodings
+drwxr-xr-x   7 office  staff   224 Feb 21 13:26 lib
+-rw-r--r--   1 office  staff  2016 Feb 21 13:26 package.json
+./node_modules/iconv-lite/encodings
+total 224
+-rw-r--r--   1 office  staff  21415 Apr  7  2018 dbcs-codec.js
+-rw-r--r--   1 office  staff   8291 Apr 21  2017 dbcs-data.js
+-rw-r--r--   1 office  staff    710 Apr 21  2017 index.js
+-rw-r--r--   1 office  staff   6115 Apr  7  2018 internal.js
+-rw-r--r--   1 office  staff   2199 Apr  7  2018 sbcs-codec.js
+-rw-r--r--   1 office  staff  32034 Sep 10  2017 sbcs-data-generated.js
+-rw-r--r--   1 office  staff   4321 Sep 10  2017 sbcs-data.js
+drwxr-xr-x  10 office  staff    320 Feb 21 13:26 tables
+-rw-r--r--   1 office  staff   5011 Apr  7  2018 utf16.js
+-rw-r--r--   1 office  staff   9215 Apr  7  2018 utf7.js
+./node_modules/iconv-lite/encodings/tables
+total 456
+-rw-r--r--  1 office  staff  17717 May 28  2014 big5-added.json
+-rw-r--r--  1 office  staff  47320 May 28  2014 cp936.json
+-rw-r--r--  1 office  staff  38122 May 28  2014 cp949.json
+-rw-r--r--  1 office  staff  42356 May 28  2014 cp950.json
+-rw-r--r--  1 office  staff  41064 May 28  2014 eucjp.json
+-rw-r--r--  1 office  staff   2216 May 28  2014 gb18030-ranges.json
+-rw-r--r--  1 office  staff   1227 May 28  2014 gbk-added.json
+-rw-r--r--  1 office  staff  23782 May 28  2014 shiftjis.json
+./node_modules/iconv-lite/lib
+total 64
+-rw-r--r--  1 office  staff  1109 Apr 21  2017 bom-handling.js
+-rw-r--r--  1 office  staff  8701 May  8  2018 extend-node.js
+-rw-r--r--  1 office  staff   982 May  8  2018 index.d.ts
+-rw-r--r--  1 office  staff  5123 Apr  7  2018 index.js
+-rw-r--r--  1 office  staff  3387 Apr 21  2017 streams.js
+./node_modules/console.table
+total 56
+-rw-r--r--  1 office  staff  1079 Jan 16  2018 LICENSE-MIT
+-rw-r--r--  1 office  staff  4457 Jan 16  2018 README.md
+-rw-r--r--  1 office  staff   594 Jan 16  2018 bower.json
+drwxr-xr-x  4 office  staff   128 Mar 26 11:48 dist
+-rw-r--r--  1 office  staff  4437 Jan 16  2018 index.js
+-rw-r--r--  1 office  staff  3134 Mar 26 11:48 package.json
+./node_modules/console.table/dist
+total 24
+-rw-r--r--  1 office  staff  4437 Jan 16  2018 console.table.js
+-rw-r--r--  1 office  staff  1841 Jan 16  2018 console.table.min.js
+./node_modules/fresh
+total 40
+-rw-r--r--  1 office  staff  1500 Sep 14  2017 HISTORY.md
+-rw-r--r--  1 office  staff  1174 Feb 20  2017 LICENSE
+-rw-r--r--  1 office  staff  3374 Sep 14  2017 README.md
+-rw-r--r--  1 office  staff  2711 Sep 14  2017 index.js
+-rw-r--r--  1 office  staff  2423 Feb 21 13:26 package.json
+./node_modules/qs
+total 104
+-rw-r--r--  1 office  staff    399 Jul 26  2017 .editorconfig
+-rw-r--r--  1 office  staff      5 Dec 23  2015 .eslintignore
+-rw-r--r--  1 office  staff    554 May  2  2018 .eslintrc
+-rw-r--r--  1 office  staff  12742 May  3  2018 CHANGELOG.md
+-rw-r--r--  1 office  staff   1654 Dec 23  2015 LICENSE
+-rw-r--r--  1 office  staff  14636 Jun 14  2017 README.md
+drwxr-xr-x  3 office  staff     96 Feb 21 13:26 dist
+drwxr-xr-x  7 office  staff    224 Feb 21 13:26 lib
+-rw-r--r--  1 office  staff   2270 Feb 21 13:26 package.json
+drwxr-xr-x  7 office  staff    224 Feb 21 13:26 test
+./node_modules/qs/test
+total 120
+-rw-r--r--  1 office  staff    348 Sep  9  2017 .eslintrc
+-rw-r--r--  1 office  staff     81 May 30  2017 index.js
+-rw-r--r--  1 office  staff  22265 May  2  2018 parse.js
+-rw-r--r--  1 office  staff  20783 May  2  2018 stringify.js
+-rw-r--r--  1 office  staff   1432 Jun 14  2017 utils.js
+./node_modules/qs/dist
+total 40
+-rw-r--r--  1 office  staff  19393 May  4  2018 qs.js
+./node_modules/qs/lib
+total 64
+-rw-r--r--  1 office  staff   387 May 30  2017 formats.js
+-rw-r--r--  1 office  staff   211 Jun 14  2017 index.js
+-rw-r--r--  1 office  staff  5817 Sep  9  2017 parse.js
+-rw-r--r--  1 office  staff  6288 Sep  9  2017 stringify.js
+-rw-r--r--  1 office  staff  5554 May  2  2018 utils.js
+./node_modules/path-to-regexp
+total 40
+-rw-r--r--  1 office  staff   694 Jul 28  2015 History.md
+-rw-r--r--  1 office  staff  1103 Jul 28  2015 LICENSE
+-rw-r--r--  1 office  staff  1102 Jul 28  2015 Readme.md
+-rw-r--r--  1 office  staff  3328 Jul 28  2015 index.js
+-rw-r--r--  1 office  staff  1519 Feb 21 13:26 package.json
+./node_modules/safer-buffer
+total 120
+-rw-r--r--  1 office  staff   1094 Oct 26  1985 LICENSE
+-rw-r--r--  1 office  staff  12794 Oct 26  1985 Porting-Buffer.md
+-rw-r--r--  1 office  staff   8261 Oct 26  1985 Readme.md
+-rw-r--r--  1 office  staff   1483 Oct 26  1985 dangerous.js
+-rw-r--r--  1 office  staff   1781 Feb 21 13:26 package.json
+-rw-r--r--  1 office  staff   2110 Oct 26  1985 safer.js
+-rw-r--r--  1 office  staff  15735 Oct 26  1985 tests.js
+./node_modules/ejs
+total 200
+-rw-r--r--  1 office  staff   1901 May  5  2018 Jakefile
+-rw-r--r--  1 office  staff  11358 May  5  2018 LICENSE
+-rw-r--r--  1 office  staff   9455 May  5  2018 README.md
+-rw-r--r--  1 office  staff  44325 May  5  2018 ejs.js
+-rw-r--r--  1 office  staff  21483 May  5  2018 ejs.min.js
+drwxr-xr-x  4 office  staff    128 Feb 21 13:26 lib
+-rw-r--r--  1 office  staff   1950 Feb 21 13:26 package.json
+./node_modules/ejs/lib
+total 64
+-rwxr-xr-x  1 office  staff  26594 May  5  2018 ejs.js
+-rw-r--r--  1 office  staff   3803 May  5  2018 utils.js
+./node_modules/mime-types
+total 48
+-rw-r--r--  1 office  staff  6110 Oct 26  1985 HISTORY.md
+-rw-r--r--  1 office  staff  1167 Oct 26  1985 LICENSE
+-rw-r--r--  1 office  staff  3494 Oct 26  1985 README.md
+-rw-r--r--  1 office  staff  3663 Oct 26  1985 index.js
+-rw-r--r--  1 office  staff  2302 Feb 21 13:26 package.json
+./node_modules/bignumber.js
+total 648
+-rw-r--r--  1 office  staff   1104 Sep 26  2017 LICENCE
+-rw-r--r--  1 office  staff  12439 Sep 26  2017 README.md
+-rw-r--r--  1 office  staff  48820 Sep  3  2017 bignumber.d.ts
+-rw-r--r--  1 office  staff  99742 Sep 26  2017 bignumber.js
+-rw-r--r--  1 office  staff  34548 Aug 30  2017 bignumber.js.map
+-rw-r--r--  1 office  staff  17694 Sep 26  2017 bignumber.min.js
+-rw-r--r--  1 office  staff  90451 Sep 26  2017 bignumber.mjs
+-rw-r--r--  1 office  staff    666 Sep 26  2017 bower.json
+drwxr-xr-x  3 office  staff     96 Feb 21 13:26 doc
+-rw-r--r--  1 office  staff   1882 Feb 21 13:26 package.json
+./node_modules/bignumber.js/doc
+total 168
+-rw-r--r--  1 office  staff  85752 Aug 30  2017 API.html
+./node_modules/type-is
+total 64
+-rw-r--r--  1 office  staff  4626 Feb 16  2018 HISTORY.md
+-rw-r--r--  1 office  staff  1172 Oct 16  2017 LICENSE
+-rw-r--r--  1 office  staff  4161 Oct 16  2017 README.md
+-rw-r--r--  1 office  staff  5525 Oct 16  2017 index.js
+-rw-r--r--  1 office  staff  2382 Feb 21 13:26 package.json
+./node_modules/easy-table
+total 64
+-rw-r--r--  1 office  staff    27 Apr  6  2017 .npmignore
+-rw-r--r--  1 office  staff  1519 Apr  6  2017 HISTORY.md
+-rw-r--r--  1 office  staff  5723 Apr  6  2017 README.md
+-rw-r--r--  1 office  staff  1554 Mar 26 11:48 package.json
+-rw-r--r--  1 office  staff  9480 Apr  6  2017 table.js
+./node_modules/vary
+total 40
+-rw-r--r--  1 office  staff   792 Sep 24  2017 HISTORY.md
+-rw-r--r--  1 office  staff  1094 Mar 20  2017 LICENSE
+-rw-r--r--  1 office  staff  2716 Mar 20  2017 README.md
+-rw-r--r--  1 office  staff  2930 Sep 23  2017 index.js
+-rw-r--r--  1 office  staff  2158 Feb 21 13:26 package.json
+./node_modules/unpipe
+total 40
+-rw-r--r--  1 office  staff    59 Jun 14  2015 HISTORY.md
+-rw-r--r--  1 office  staff  1114 Jun 14  2015 LICENSE
+-rw-r--r--  1 office  staff  1250 Jun 14  2015 README.md
+-rw-r--r--  1 office  staff  1118 Jun 14  2015 index.js
+-rw-r--r--  1 office  staff  1767 Feb 21 13:26 package.json
+./node_modules/util-deprecate
+total 48
+-rw-r--r--  1 office  staff   282 Oct  7  2015 History.md
+-rw-r--r--  1 office  staff  1102 Nov 25  2014 LICENSE
+-rw-r--r--  1 office  staff  1666 Nov 25  2014 README.md
+-rw-r--r--  1 office  staff  1614 Oct  7  2015 browser.js
+-rw-r--r--  1 office  staff   123 Nov 25  2014 node.js
+-rw-r--r--  1 office  staff  1569 Feb 21 13:26 package.json
+./node_modules/defaults
+total 48
+-rw-r--r--  1 office  staff    13 Oct  3  2015 .npmignore
+-rw-r--r--  1 office  staff  1079 Oct  3  2015 LICENSE
+-rw-r--r--  1 office  staff   827 Oct  3  2015 README.md
+-rw-r--r--  1 office  staff   277 Oct  3  2015 index.js
+-rw-r--r--  1 office  staff  1415 Mar 26 11:48 package.json
+-rw-r--r--  1 office  staff  1050 Oct  3  2015 test.js
+./node_modules/raw-body
+total 72
+-rw-r--r--  1 office  staff  5066 May  8  2018 HISTORY.md
+-rw-r--r--  1 office  staff  1181 Sep  8  2017 LICENSE
+-rw-r--r--  1 office  staff  6339 Apr 14  2018 README.md
+-rw-r--r--  1 office  staff  2286 Sep  8  2017 index.d.ts
+-rw-r--r--  1 office  staff  6059 Sep  8  2017 index.js
+-rw-r--r--  1 office  staff  2634 Feb 21 13:26 package.json
+./node_modules/bluebird
+total 32
+-rw-r--r--  1 office  staff  1086 Nov  6 21:04 LICENSE
+-rw-r--r--  1 office  staff  3058 Nov  6 21:04 README.md
+-rw-r--r--  1 office  staff    87 Nov  6 21:04 changelog.md
+drwxr-xr-x  4 office  staff   128 Feb 21 13:26 js
+-rw-r--r--  1 office  staff  3018 Feb 21 13:26 package.json
+./node_modules/bluebird/js
+total 0
+drwxr-xr-x   6 office  staff   192 Feb 21 13:26 browser
+drwxr-xr-x  39 office  staff  1248 Feb 21 13:26 release
+./node_modules/bluebird/js/release
+total 512
+-rw-r--r--  1 office  staff    421 Nov  6 21:06 any.js
+-rw-r--r--  1 office  staff   1653 Nov  6 21:06 assert.js
+-rw-r--r--  1 office  staff   4147 Nov  6 21:06 async.js
+-rw-r--r--  1 office  staff   1970 Nov  6 21:06 bind.js
+-rw-r--r--  1 office  staff    291 Nov  6 21:06 bluebird.js
+-rw-r--r--  1 office  staff   4355 Nov  6 21:06 call_get.js
+-rw-r--r--  1 office  staff   3707 Nov  6 21:06 cancel.js
+-rw-r--r--  1 office  staff   1426 Nov  6 21:06 catch_filter.js
+-rw-r--r--  1 office  staff   2382 Nov  6 21:06 context.js
+-rw-r--r--  1 office  staff  30325 Nov  6 21:06 debuggability.js
+-rw-r--r--  1 office  staff   1395 Nov  6 21:06 direct_resolve.js
+-rw-r--r--  1 office  staff    789 Nov  6 21:06 each.js
+-rw-r--r--  1 office  staff   3717 Nov  6 21:06 errors.js
+-rw-r--r--  1 office  staff   1978 Nov  6 21:06 es5.js
+-rw-r--r--  1 office  staff    314 Nov  6 21:06 filter.js
+-rw-r--r--  1 office  staff   4613 Nov  6 21:06 finally.js
+-rw-r--r--  1 office  staff   7761 Nov  6 21:06 generators.js
+-rw-r--r--  1 office  staff   8218 Nov  6 21:06 join.js
+-rw-r--r--  1 office  staff   5377 Nov  6 21:06 map.js
+-rw-r--r--  1 office  staff   1768 Nov  6 21:06 method.js
+-rw-r--r--  1 office  staff   1560 Nov  6 21:06 nodeback.js
+-rw-r--r--  1 office  staff   1647 Nov  6 21:06 nodeify.js
+-rw-r--r--  1 office  staff  25822 Nov  6 21:06 promise.js
+-rw-r--r--  1 office  staff   5206 Nov  6 21:06 promise_array.js
+-rw-r--r--  1 office  staff  12182 Nov  6 21:06 promisify.js
+-rw-r--r--  1 office  staff   3117 Nov  6 21:06 props.js
+-rw-r--r--  1 office  staff   1873 Nov  6 21:06 queue.js
+-rw-r--r--  1 office  staff   1250 Nov  6 21:06 race.js
+-rw-r--r--  1 office  staff   5126 Nov  6 21:06 reduce.js
+-rw-r--r--  1 office  staff   2093 Nov  6 21:06 schedule.js
+-rw-r--r--  1 office  staff   1263 Nov  6 21:06 settle.js
+-rw-r--r--  1 office  staff   3959 Nov  6 21:06 some.js
+-rw-r--r--  1 office  staff   2813 Nov  6 21:06 synchronous_inspection.js
+-rw-r--r--  1 office  staff   2131 Nov  6 21:06 thenables.js
+-rw-r--r--  1 office  staff   2395 Nov  6 21:06 timers.js
+-rw-r--r--  1 office  staff   7525 Nov  6 21:06 using.js
+-rw-r--r--  1 office  staff  10354 Nov  6 21:06 util.js
+./node_modules/bluebird/js/browser
+total 864
+-rw-r--r--  1 office  staff  120638 Nov  6 21:06 bluebird.core.js
+-rw-r--r--  1 office  staff   56064 Nov  6 21:06 bluebird.core.min.js
+-rw-r--r--  1 office  staff  180075 Nov  6 21:06 bluebird.js
+-rw-r--r--  1 office  staff   79991 Nov  6 21:06 bluebird.min.js
+./node_modules/http-errors
+total 56
+-rw-r--r--  1 office  staff  2819 Mar 29  2018 HISTORY.md
+-rw-r--r--  1 office  staff  1168 Aug  3  2017 LICENSE
+-rw-r--r--  1 office  staff  4803 Aug  3  2017 README.md
+-rw-r--r--  1 office  staff  5758 Mar 29  2018 index.js
+-rw-r--r--  1 office  staff  2427 Feb 21 13:26 package.json
+./node_modules/accepts
+total 64
+-rw-r--r--  1 office  staff  4736 Mar  1  2018 HISTORY.md
+-rw-r--r--  1 office  staff  1167 Apr  1  2017 LICENSE
+-rw-r--r--  1 office  staff  4130 Apr  1  2017 README.md
+-rw-r--r--  1 office  staff  5252 Apr  1  2017 index.js
+-rw-r--r--  1 office  staff  2304 Feb 21 13:26 package.json
+./node_modules/clone
+total 56
+-rw-r--r--  1 office  staff    45 Mar 21  2018 .npmignore
+-rw-r--r--  1 office  staff  1070 Jan 14  2015 LICENSE
+-rw-r--r--  1 office  staff  3585 Mar 21  2018 README.md
+-rw-r--r--  1 office  staff   411 Jan  6  2016 clone.iml
+-rw-r--r--  1 office  staff  4389 Mar 21  2018 clone.js
+-rw-r--r--  1 office  staff  3178 Mar 26 11:48 package.json
+./node_modules/cookie-signature
+total 40
+-rw-r--r--  1 office  staff    29 Jan 28  2014 .npmignore
+-rw-r--r--  1 office  staff   695 Feb  3  2015 History.md
+-rw-r--r--  1 office  staff  1490 Jun 19  2014 Readme.md
+-rw-r--r--  1 office  staff  1230 Feb  3  2015 index.js
+-rw-r--r--  1 office  staff  1552 Feb 21 13:26 package.json
+./node_modules/forwarded
+total 40
+-rw-r--r--  1 office  staff   306 Sep 15  2017 HISTORY.md
+-rw-r--r--  1 office  staff  1094 Sep 15  2017 LICENSE
+-rw-r--r--  1 office  staff  1637 Sep 15  2017 README.md
+-rw-r--r--  1 office  staff  1360 Sep 15  2017 index.js
+-rw-r--r--  1 office  staff  2163 Feb 21 13:26 package.json
+./node_modules/negotiator
+total 48
+-rw-r--r--  1 office  staff  2296 May  3  2016 HISTORY.md
+-rw-r--r--  1 office  staff  1177 Apr 28  2016 LICENSE
+-rw-r--r--  1 office  staff  4811 May  3  2016 README.md
+-rw-r--r--  1 office  staff  3344 May  3  2016 index.js
+drwxr-xr-x  6 office  staff   192 Feb 21 13:26 lib
+-rw-r--r--  1 office  staff  2113 Feb 21 13:26 package.json
+./node_modules/negotiator/lib
+total 40
+-rw-r--r--  1 office  staff  3082 May  3  2016 charset.js
+-rw-r--r--  1 office  staff  3507 May  3  2016 encoding.js
+-rw-r--r--  1 office  staff  3413 May  3  2016 language.js
+-rw-r--r--  1 office  staff  5358 May  3  2016 mediaType.js
+./node_modules/body-parser
+total 96
+-rw-r--r--  1 office  staff  14541 May 14  2018 HISTORY.md
+-rw-r--r--  1 office  staff   1172 Aug  9  2017 LICENSE
+-rw-r--r--  1 office  staff  17188 Jan  9  2018 README.md
+-rw-r--r--  1 office  staff   2656 Aug  9  2017 index.js
+drwxr-xr-x  4 office  staff    128 Feb 21 13:52 lib
+-rw-r--r--  1 office  staff   2656 Feb 21 13:52 package.json
+./node_modules/body-parser/lib
+total 8
+-rw-r--r--  1 office  staff  3894 Oct 19  2017 read.js
+drwxr-xr-x  6 office  staff   192 Feb 21 13:52 types
+./node_modules/body-parser/lib/types
+total 48
+-rw-r--r--  1 office  staff  4918 May  8  2018 json.js
+-rw-r--r--  1 office  staff  1884 Aug  9  2017 raw.js
+-rw-r--r--  1 office  staff  2285 Aug  9  2017 text.js
+-rw-r--r--  1 office  staff  5795 Sep  8  2017 urlencoded.js
+./node_modules/mysql
+total 184
+-rw-r--r--   1 office  staff  19978 Jul 18  2018 Changes.md
+-rw-r--r--   1 office  staff   1118 Jun  6  2017 License
+-rw-r--r--   1 office  staff  54463 Jul 15  2018 Readme.md
+-rw-r--r--   1 office  staff   4533 Jul  5  2018 index.js
+drwxr-xr-x  11 office  staff    352 Feb 21 13:26 lib
+-rw-r--r--   1 office  staff   2523 Feb 21 13:26 package.json
+./node_modules/mysql/lib
+total 112
+-rw-r--r--   1 office  staff  13365 Jul  5  2018 Connection.js
+-rw-r--r--   1 office  staff   6339 Jul  6  2018 ConnectionConfig.js
+-rw-r--r--   1 office  staff   7586 Jul  5  2018 Pool.js
+-rw-r--r--   1 office  staff   6470 Jun 29  2017 PoolCluster.js
+-rw-r--r--   1 office  staff   1057 Jun 29  2017 PoolConfig.js
+-rw-r--r--   1 office  staff   1697 Jul 28  2017 PoolConnection.js
+-rw-r--r--   1 office  staff   3220 Jun 29  2017 PoolNamespace.js
+-rw-r--r--   1 office  staff    588 Jun 29  2017 PoolSelector.js
+drwxr-xr-x  14 office  staff    448 Feb 21 13:26 protocol
+./node_modules/mysql/lib/protocol
+total 120
+-rw-r--r--   1 office  staff   3999 Jul 15  2018 Auth.js
+-rw-r--r--   1 office  staff    385 Jun 29  2017 BufferList.js
+-rw-r--r--   1 office  staff    121 Jun 29  2017 PacketHeader.js
+-rw-r--r--   1 office  staff   5372 Jun 29  2017 PacketWriter.js
+-rw-r--r--   1 office  staff  13322 Jul  5  2018 Parser.js
+-rw-r--r--   1 office  staff  11435 Jul  5  2018 Protocol.js
+-rw-r--r--   1 office  staff    233 Jun 29  2017 ResultSet.js
+-rw-r--r--   1 office  staff     39 Jun  6  2017 SqlString.js
+-rw-r--r--   1 office  staff    699 Jul  5  2018 Timer.js
+drwxr-xr-x   9 office  staff    288 Feb 21 13:26 constants
+drwxr-xr-x  25 office  staff    800 Feb 21 13:26 packets
+drwxr-xr-x  10 office  staff    320 Feb 21 13:26 sequences
+./node_modules/mysql/lib/protocol/constants
+total 472
+-rw-r--r--  1 office  staff   11398 Jun  6  2017 charsets.js
+-rw-r--r--  1 office  staff    1629 Jun  6  2017 client.js
+-rw-r--r--  1 office  staff  171390 Jul  5  2018 errors.js
+-rw-r--r--  1 office  staff    1066 Jun  6  2017 field_flags.js
+-rw-r--r--  1 office  staff    1449 Jun  6  2017 server_status.js
+-rw-r--r--  1 office  staff   40943 Jul  5  2018 ssl_profiles.js
+-rw-r--r--  1 office  staff    1801 Jun  6  2017 types.js
+./node_modules/mysql/lib/protocol/packets
+total 192
+-rw-r--r--  1 office  staff   707 Jul  5  2018 AuthSwitchRequestPacket.js
+-rw-r--r--  1 office  staff   375 Jul  5  2018 AuthSwitchResponsePacket.js
+-rw-r--r--  1 office  staff  2080 Jul  5  2018 ClientAuthenticationPacket.js
+-rw-r--r--  1 office  staff   960 Jul  6  2018 ComChangeUserPacket.js
+-rw-r--r--  1 office  staff   289 Jun 29  2017 ComPingPacket.js
+-rw-r--r--  1 office  staff   405 Jun 29  2017 ComQueryPacket.js
+-rw-r--r--  1 office  staff   301 Jun 29  2017 ComQuitPacket.js
+-rw-r--r--  1 office  staff   313 Jun 29  2017 ComStatisticsPacket.js
+-rw-r--r--  1 office  staff   110 Jun 29  2017 EmptyPacket.js
+-rw-r--r--  1 office  staff   721 Jun 29  2017 EofPacket.js
+-rw-r--r--  1 office  staff  1007 Jun 29  2017 ErrorPacket.js
+-rw-r--r--  1 office  staff   770 Jun 29  2017 Field.js
+-rw-r--r--  1 office  staff  3264 Jun 29  2017 FieldPacket.js
+-rw-r--r--  1 office  staff  3958 Jul  5  2018 HandshakeInitializationPacket.js
+-rw-r--r--  1 office  staff   319 Jun 29  2017 LocalDataFilePacket.js
+-rw-r--r--  1 office  staff  1414 Jul  5  2018 OkPacket.js
+-rw-r--r--  1 office  staff   390 Jul 15  2018 OldPasswordPacket.js
+-rw-r--r--  1 office  staff   669 Jun 29  2017 ResultSetHeaderPacket.js
+-rw-r--r--  1 office  staff  4159 Oct  3  2017 RowDataPacket.js
+-rw-r--r--  1 office  staff   983 Jun 29  2017 SSLRequestPacket.js
+-rw-r--r--  1 office  staff   544 Jun 29  2017 StatisticsPacket.js
+-rw-r--r--  1 office  staff   379 Jun 29  2017 UseOldPasswordPacket.js
+-rw-r--r--  1 office  staff  1286 Jul  5  2018 index.js
+./node_modules/mysql/lib/protocol/sequences
+total 72
+-rw-r--r--  1 office  staff  1304 Jul  6  2018 ChangeUser.js
+-rw-r--r--  1 office  staff  3746 Jul  6  2018 Handshake.js
+-rw-r--r--  1 office  staff   434 Jun 29  2017 Ping.js
+-rw-r--r--  1 office  staff  5237 Jul  5  2018 Query.js
+-rw-r--r--  1 office  staff   861 Jul  5  2018 Quit.js
+-rw-r--r--  1 office  staff  3231 Jul  5  2018 Sequence.js
+-rw-r--r--  1 office  staff   727 Jun 29  2017 Statistics.js
+-rw-r--r--  1 office  staff   282 Jun  6  2017 index.js
+./node_modules/utils-merge
+total 40
+-rw-r--r--  1 office  staff    79 Sep 20  2017 .npmignore
+-rw-r--r--  1 office  staff  1084 Sep 20  2017 LICENSE
+-rw-r--r--  1 office  staff  1319 Sep 20  2017 README.md
+-rw-r--r--  1 office  staff   381 Sep 20  2017 index.js
+-rw-r--r--  1 office  staff  1691 Feb 21 13:26 package.json
+./node_modules/serve-static
+total 72
+-rw-r--r--  1 office  staff  9694 Feb  7  2018 HISTORY.md
+-rw-r--r--  1 office  staff  1189 Sep 21  2017 LICENSE
+-rw-r--r--  1 office  staff  7735 Feb  7  2018 README.md
+-rw-r--r--  1 office  staff  4571 Feb  7  2018 index.js
+-rw-r--r--  1 office  staff  2278 Feb 21 13:26 package.json
+./node_modules/mime
+total 104
+-rw-r--r--  1 office  staff   1098 May 12  2017 LICENSE
+-rw-r--r--  1 office  staff   2119 Sep 25  2017 README.md
+drwxr-xr-x  4 office  staff    128 Feb 21 13:26 build
+-rwxr-xr-x  1 office  staff    149 Sep 25  2017 cli.js
+-rw-r--r--  1 office  staff   2726 Sep 25  2017 mime.js
+-rw-r--r--  1 office  staff   1701 Feb 21 13:26 package.json
+-rw-r--r--  1 office  staff  31541 Sep 25  2017 types.json
+./node_modules/mime/build
+total 16
+-rw-r--r--  1 office  staff   231 Sep 25  2017 build.js
+-rw-r--r--  1 office  staff  2346 Sep 25  2017 test.js
+./node_modules/ipaddr.js
+total 56
+-rw-r--r--  1 office  staff  8310 Aug 21  2017 README.md
+-rw-r--r--  1 office  staff  9261 Jul 10  2018 ipaddr.min.js
+drwxr-xr-x  4 office  staff   128 Feb 21 13:26 lib
+-rw-r--r--  1 office  staff  1697 Feb 21 13:26 package.json
+./node_modules/ipaddr.js/lib
+total 48
+-rw-r--r--  1 office  staff  18182 Jul 10  2018 ipaddr.js
+-rw-r--r--  1 office  staff   2861 Jul 10  2018 ipaddr.js.d.ts
+./node_modules/cookie
+total 56
+-rw-r--r--  1 office  staff  2626 May 27  2016 HISTORY.md
+-rw-r--r--  1 office  staff  1175 May 21  2016 LICENSE
+-rw-r--r--  1 office  staff  8208 May 27  2016 README.md
+-rw-r--r--  1 office  staff  3969 May 27  2016 index.js
+-rw-r--r--  1 office  staff  1850 Feb 21 13:26 package.json
+./node_modules/escape-html
+total 32
+-rw-r--r--  1 office  staff  1157 Sep  1  2015 LICENSE
+-rw-r--r--  1 office  staff   707 Sep  1  2015 Readme.md
+-rw-r--r--  1 office  staff  1362 Sep  1  2015 index.js
+-rw-r--r--  1 office  staff  1483 Feb 21 13:26 package.json
+./node_modules/statuses
+total 48
+-rw-r--r--  1 office  staff  1023 Mar 28  2018 HISTORY.md
+-rw-r--r--  1 office  staff  1172 Oct 20  2017 LICENSE
+-rw-r--r--  1 office  staff  3458 Oct 20  2017 README.md
+-rw-r--r--  1 office  staff  1821 Mar 28  2018 codes.json
+-rw-r--r--  1 office  staff  2088 Oct 20  2017 index.js
+-rw-r--r--  1 office  staff  2555 Feb 21 13:26 package.json
+./node_modules/parseurl
+total 40
+-rw-r--r--  1 office  staff   954 Sep  9  2017 HISTORY.md
+-rw-r--r--  1 office  staff  1173 Sep  9  2017 LICENSE
+-rw-r--r--  1 office  staff  3639 Sep  9  2017 README.md
+-rw-r--r--  1 office  staff  2774 Sep  9  2017 index.js
+-rw-r--r--  1 office  staff  2270 Feb 21 13:26 package.json
+./node_modules/etag
+total 48
+-rw-r--r--  1 office  staff  1732 Sep 13  2017 HISTORY.md
+-rw-r--r--  1 office  staff  1094 Feb 19  2017 LICENSE
+-rw-r--r--  1 office  staff  4198 Sep 13  2017 README.md
+-rw-r--r--  1 office  staff  2479 Sep 13  2017 index.js
+-rw-r--r--  1 office  staff  2306 Feb 21 13:26 package.json
+./node_modules/isarray
+total 64
+-rw-r--r--  1 office  staff    13 Dec 10  2015 .npmignore
+-rw-r--r--  1 office  staff    48 Dec 10  2015 .travis.yml
+-rw-r--r--  1 office  staff    55 Dec 10  2015 Makefile
+-rw-r--r--  1 office  staff  1890 Dec 10  2015 README.md
+-rw-r--r--  1 office  staff   470 Dec 10  2015 component.json
+-rw-r--r--  1 office  staff   132 Dec 10  2015 index.js
+-rw-r--r--  1 office  staff  1803 Feb 21 13:26 package.json
+-rw-r--r--  1 office  staff   320 Dec 10  2015 test.js
+./node_modules/send
+total 112
+-rw-r--r--  1 office  staff  11568 Feb  7  2018 HISTORY.md
+-rw-r--r--  1 office  staff   1128 Aug  3  2017 LICENSE
+-rw-r--r--  1 office  staff   8878 Jan 22  2018 README.md
+-rw-r--r--  1 office  staff  23318 Jan 22  2018 index.js
+drwxr-xr-x  3 office  staff     96 Feb 21 13:26 node_modules
+-rw-r--r--  1 office  staff   2827 Feb 21 13:26 package.json
+./node_modules/send/node_modules
+total 0
+drwxr-xr-x  8 office  staff  256 Feb 21 13:26 statuses
+./node_modules/send/node_modules/statuses
+total 48
+-rw-r--r--  1 office  staff   957 Oct 20  2017 HISTORY.md
+-rw-r--r--  1 office  staff  1172 Oct 20  2017 LICENSE
+-rw-r--r--  1 office  staff  3458 Oct 20  2017 README.md
+-rw-r--r--  1 office  staff  1797 Oct 20  2017 codes.json
+-rw-r--r--  1 office  staff  2088 Oct 20  2017 index.js
+-rw-r--r--  1 office  staff  2578 Feb 21 13:26 package.json
+./node_modules/finalhandler
+total 48
+-rw-r--r--  1 office  staff  3938 Mar  6  2018 HISTORY.md
+-rw-r--r--  1 office  staff  1119 Aug  4  2017 LICENSE
+-rw-r--r--  1 office  staff  4010 Mar  6  2018 README.md
+-rw-r--r--  1 office  staff  6518 Mar  6  2018 index.js
+drwxr-xr-x  3 office  staff    96 Feb 21 13:26 node_modules
+-rw-r--r--  1 office  staff  2414 Feb 21 13:26 package.json
+./node_modules/finalhandler/node_modules
+total 0
+drwxr-xr-x  8 office  staff  256 Feb 21 13:26 statuses
+./node_modules/finalhandler/node_modules/statuses
+total 48
+-rw-r--r--  1 office  staff   957 Oct 20  2017 HISTORY.md
+-rw-r--r--  1 office  staff  1172 Oct 20  2017 LICENSE
+-rw-r--r--  1 office  staff  3458 Oct 20  2017 README.md
+-rw-r--r--  1 office  staff  1797 Oct 20  2017 codes.json
+-rw-r--r--  1 office  staff  2088 Oct 20  2017 index.js
+-rw-r--r--  1 office  staff  2602 Feb 21 13:26 package.json
+./node_modules/readable-stream
+total 120
+-rw-r--r--  1 office  staff  1308 Oct 26  1985 .travis.yml
+-rw-r--r--  1 office  staff  1443 Oct 26  1985 CONTRIBUTING.md
+-rw-r--r--  1 office  staff  5550 Oct 26  1985 GOVERNANCE.md
+-rw-r--r--  1 office  staff  2337 Oct 26  1985 LICENSE
+-rw-r--r--  1 office  staff  2999 Oct 26  1985 README.md
+drwxr-xr-x  3 office  staff    96 Feb 21 13:26 doc
+-rw-r--r--  1 office  staff    53 Oct 26  1985 duplex-browser.js
+-rw-r--r--  1 office  staff    46 Oct 26  1985 duplex.js
+drwxr-xr-x  8 office  staff   256 Feb 21 13:26 lib
+-rw-r--r--  1 office  staff  2398 Feb 21 13:26 package.json
+-rw-r--r--  1 office  staff    51 Oct 26  1985 passthrough.js
+-rw-r--r--  1 office  staff   351 Oct 26  1985 readable-browser.js
+-rw-r--r--  1 office  staff   771 Oct 26  1985 readable.js
+-rw-r--r--  1 office  staff    49 Oct 26  1985 transform.js
+-rw-r--r--  1 office  staff    55 Oct 26  1985 writable-browser.js
+-rw-r--r--  1 office  staff   229 Oct 26  1985 writable.js
+./node_modules/readable-stream/lib
+total 136
+-rw-r--r--  1 office  staff   4000 Oct 26  1985 _stream_duplex.js
+-rw-r--r--  1 office  staff   1738 Oct 26  1985 _stream_passthrough.js
+-rw-r--r--  1 office  staff  31309 Oct 26  1985 _stream_readable.js
+-rw-r--r--  1 office  staff   7727 Oct 26  1985 _stream_transform.js
+-rw-r--r--  1 office  staff  20302 Oct 26  1985 _stream_writable.js
+drwxr-xr-x  3 office  staff     96 Feb 21 13:26 internal
+./node_modules/readable-stream/lib/internal
+total 0
+drwxr-xr-x  6 office  staff  192 Feb 21 13:26 streams
+./node_modules/readable-stream/lib/internal/streams
+total 32
+-rw-r--r--  1 office  staff  2059 Oct 26  1985 BufferList.js
+-rw-r--r--  1 office  staff  1849 Oct 26  1985 destroy.js
+-rw-r--r--  1 office  staff    49 Oct 26  1985 stream-browser.js
+-rw-r--r--  1 office  staff    36 Oct 26  1985 stream.js
+./node_modules/readable-stream/doc
+total 0
+drwxr-xr-x  3 office  staff  96 Feb 21 13:26 wg-meetings
+./node_modules/readable-stream/doc/wg-meetings
+total 8
+-rw-r--r--  1 office  staff  2280 Oct 26  1985 2015-01-30.md
+./node_modules/on-finished
+total 48
+-rw-r--r--  1 office  staff  1694 May 27  2015 HISTORY.md
+-rw-r--r--  1 office  staff  1167 Aug 16  2014 LICENSE
+-rw-r--r--  1 office  staff  4886 May 26  2015 README.md
+-rw-r--r--  1 office  staff  3686 May 26  2015 index.js
+-rw-r--r--  1 office  staff  2014 Feb 21 13:26 package.json
+./node_modules/debug
+total 144
+-rw-r--r--  1 office  staff     46 Jun 15  2017 .coveralls.yml
+-rw-r--r--  1 office  staff    180 Sep 22  2017 .eslintrc
+-rw-r--r--  1 office  staff     72 Jun 15  2017 .npmignore
+-rw-r--r--  1 office  staff    140 Sep 22  2017 .travis.yml
+-rw-r--r--  1 office  staff  11707 Sep 22  2017 CHANGELOG.md
+-rw-r--r--  1 office  staff   1107 Jun 15  2017 LICENSE
+-rw-r--r--  1 office  staff   1059 Sep 22  2017 Makefile
+-rw-r--r--  1 office  staff  17918 Sep 22  2017 README.md
+-rw-r--r--  1 office  staff    321 Sep 22  2017 component.json
+-rw-r--r--  1 office  staff   1736 Jun 15  2017 karma.conf.js
+-rw-r--r--  1 office  staff     40 Jun 15  2017 node.js
+-rw-r--r--  1 office  staff   2246 Feb 21 13:26 package.json
+drwxr-xr-x  7 office  staff    224 Feb 21 13:26 src
+./node_modules/debug/src
+total 64
+-rw-r--r--  1 office  staff  4734 Sep 22  2017 browser.js
+-rw-r--r--  1 office  staff  4394 Sep 22  2017 debug.js
+-rw-r--r--  1 office  staff   263 Sep 22  2017 index.js
+-rw-r--r--  1 office  staff   373 Sep 21  2017 inspector-log.js
+-rw-r--r--  1 office  staff  6015 Sep 22  2017 node.js
+./node_modules/media-typer
+total 48
+-rw-r--r--  1 office  staff   461 Sep  8  2014 HISTORY.md
+-rw-r--r--  1 office  staff  1089 Sep  8  2014 LICENSE
+-rw-r--r--  1 office  staff  2371 Sep  8  2014 README.md
+-rw-r--r--  1 office  staff  6375 Sep  8  2014 index.js
+-rw-r--r--  1 office  staff  1776 Feb 21 13:26 package.json
+./node_modules/mime-db
+total 392
+-rw-r--r--  1 office  staff    9930 Oct 26  1985 HISTORY.md
+-rw-r--r--  1 office  staff    1099 Oct 26  1985 LICENSE
+-rw-r--r--  1 office  staff    3698 Oct 26  1985 README.md
+-rw-r--r--  1 office  staff  170630 Oct 26  1985 db.json
+-rw-r--r--  1 office  staff     136 Oct 26  1985 index.js
+-rw-r--r--  1 office  staff    2704 Feb 21 13:26 package.json
+./node_modules/setprototypeof
+total 40
+-rw-r--r--  1 office  staff   727 Feb  7  2016 LICENSE
+-rw-r--r--  1 office  staff   500 Sep 14  2017 README.md
+-rw-r--r--  1 office  staff    93 Sep 14  2017 index.d.ts
+-rw-r--r--  1 office  staff   334 Feb 20  2017 index.js
+-rw-r--r--  1 office  staff  1527 Feb 21 13:26 package.json
+./.dbwebb
+total 0
+drwxr-xr-x  5 office  staff  160 Mar 28 13:34 exam
+./.dbwebb/exam
+total 8
+drwxr-xr-x  8 office  staff  256 Mar 28 18:23 file
+-rw-r--r--  1 office  staff   35 Mar 28 13:34 id.md
+drwxr-xr-x  8 office  staff  256 Mar 28 18:23 receipt
+./.dbwebb/exam/file
+total 576
+-rw-r--r--  1 office  staff  50531 Mar 28 13:34 20190328133446.txt
+-rw-r--r--  1 office  staff  48109 Mar 28 17:02 20190328170204.txt
+-rw-r--r--  1 office  staff  48177 Mar 28 17:36 20190328173647.txt
+-rw-r--r--  1 office  staff  48308 Mar 28 17:37 20190328173716.txt
+-rw-r--r--  1 office  staff  48498 Mar 28 18:15 20190328181534.txt
+-rw-r--r--  1 office  staff  44879 Mar 28 18:23 20190328182334.txt
+./.dbwebb/exam/receipt
+total 48
+-rw-r--r--  1 office  staff  577 Mar 28 13:34 20190328123446.md
+-rw-r--r--  1 office  staff  657 Mar 28 17:36 20190328163647.md
+-rw-r--r--@ 1 office  staff  577 Mar 28 17:02 20190328170204.md
+-rw-r--r--  1 office  staff  737 Mar 28 18:23 20190328172334.md
+-rw-r--r--@ 1 office  staff  657 Mar 28 17:37 20190328173715.md
+-rw-r--r--@ 1 office  staff  657 Mar 28 18:15 20190328181534.md
+./public
+total 112
+-rw-r--r--@  1 office  staff   6148 Mar 28 12:36 .DS_Store
+-rw-r--r--   1 office  staff  32988 Jan 23 12:52 favicon.ico
+drwxr-xr-x  15 office  staff    480 Mar 28 12:36 img
+drwxr-xr-x   3 office  staff     96 Jan 23 12:52 js
+-rw-r--r--   1 office  staff   1905 Jan 23 12:52 me.html
+-rw-r--r--   1 office  staff    805 Jan 23 12:52 om.html
+-rw-r--r--   1 office  staff   1134 Jan 23 12:52 redovisning.html
+drwxr-xr-x   3 office  staff     96 Jan 23 12:52 style
+./public/js
+total 8
+-rw-r--r--  1 office  staff  114 Jan 23 12:52 main.js
+./public/style
+total 8
+-rw-r--r--  1 office  staff  3597 Mar 18 17:29 style.css
+./public/img
+total 25416
+-rw-r--r--@ 1 office  staff     6148 Mar 28 12:42 .DS_Store
+-rw-r--r--@ 1 office  staff    60527 Feb  8 11:04 cd.png
+-rw-r--r--@ 1 office  staff   192691 Mar 26 14:05 code.jpg
+-rw-r--r--@ 1 office  staff    28891 Feb  8 11:04 dvd.png
+-rw-r--r--@ 1 office  staff     5487 Mar 26 14:08 home.png
+-rw-r--r--  1 office  staff    52962 Jan 23 12:52 me.jpg
+-rw-r--r--@ 1 office  staff    41430 Mar 26 14:01 mysql.png
+-rw-r--r--@ 1 office  staff  6310405 Mar 16 12:02 shop1.jpg
+-rw-r--r--@ 1 office  staff  5935194 Mar 16 12:02 shop2.jpg
+-rw-r--r--@ 1 office  staff    91181 Mar 26 17:17 sushi.jpg
+-rw-r--r--@ 1 office  staff    98949 Mar 26 17:22 sushi2.jpg
+-rw-r--r--@ 1 office  staff    85888 Feb  8 11:01 vinyl.png
+-rw-r--r--@ 1 office  staff    70697 Mar 28 12:36 wanted.jpg
+./doc
+total 1472
+-rw-r--r--@ 1 office  staff    6148 Mar 28 18:10 .DS_Store
+-rw-r--r--@ 1 office  staff  741533 Mar 28 18:10 er.png
+./views
+total 16
+-rw-r--r--@ 1 office  staff  6148 Mar 26 13:24 .DS_Store
+drwxr-xr-x  8 office  staff   256 Mar 28 17:20 sapo
+./views/sapo
+total 56
+-rw-r--r--@ 1 office  staff  6148 Mar 26 13:24 .DS_Store
+-rw-r--r--  1 office  staff   126 Mar 26 14:00 footer.ejs
+-rw-r--r--  1 office  staff   860 Mar 28 17:31 header.ejs
+-rw-r--r--  1 office  staff   472 Mar 28 17:31 index.ejs
+-rw-r--r--  1 office  staff   894 Mar 28 15:23 logg.ejs
+-rw-r--r--  1 office  staff  1137 Mar 28 16:43 search.ejs
+./src
+total 8
+-rw-r--r--  1 office  staff  3118 Mar 28 16:39 sapo.js
+./sql
+total 16
+-rw-r--r--@  1 office  staff  6148 Mar 28 18:12 .DS_Store
+drwxr-xr-x  13 office  staff   416 Mar 28 18:18 sapo
+./sql/sapo
+total 128
+-rw-r--r--@ 1 office  staff   6148 Mar 28 17:13 .DS_Store
+-rw-r--r--  1 office  staff  15209 Mar 28 18:18 backup.sql
+-rw-r--r--@ 1 office  staff   2898 Mar 28 18:11 ddl.sql
+-rw-r--r--  1 office  staff   4449 Mar 28 16:48 dml.sql
+-rw-r--r--  1 office  staff    826 Mar 28 17:12 insert.sql
+-rw-r--r--@ 1 office  staff     81 Mar 28 13:58 kategori.csv
+-rw-r--r--@ 1 office  staff    866 Mar 28 13:58 logg.csv
+-rw-r--r--@ 1 office  staff    125 Mar 28 13:57 organisation.csv
+-rw-r--r--@ 1 office  staff    122 Mar 28 13:58 person.csv
+-rw-r--r--@ 1 office  staff    767 Mar 28 14:06 reset_sapo.bash
+-rw-r--r--@ 1 office  staff   1551 Mar 28 13:43 setup.sql

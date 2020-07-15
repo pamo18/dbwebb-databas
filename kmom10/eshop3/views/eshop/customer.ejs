@@ -1,0 +1,28 @@
+<%- include("header", {title: title}); %>
+
+<h1>Customers</h1>
+
+<p>Here are all the customers.</p>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<table class="wide center">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Country</th>
+        <th>Telephone</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td class="center"><%= row.id %></td>
+        <td class="center"><%= row.fornamn + ' ' + row.efternamn %></td>
+        <td class="center"><%= row.adress %></td>
+        <td class="center"><%= row.land %></td>
+        <td class="center"><%= row.telefon %></td>
+    </tr>
+<% }; %>
+</table>
+
+<%- include("footer"); %>

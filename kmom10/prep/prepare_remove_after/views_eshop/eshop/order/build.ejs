@@ -1,0 +1,29 @@
+<%- include("../header", {title: title}); %>
+
+<h1>Build order <%= order %></h1>
+
+<form class="narrow center bigger bold" method="post" action="/eshop/order/build">
+    <input id="id" type="hidden" name="id" value="<%= order %>">
+    <table class="narrow">
+        <tr>
+            <th>Product</th>
+            <th>Pris</th>
+            <th>Quantity</th>
+            <th>In stock</th>
+        </tr>
+<% for (const row of res) { %>
+    <input id="product_id" type="hidden" name="product_id" value="<%= row.id %>">
+        <tr>
+            <td><%= row.namn %></td>
+            <td class="price"><%= row.pris %></td>
+            <td><input class=" narrow-field center bigger" id="quantity" type="number" name="quantity"></td>
+            <td><%= row.Lagersaldo %></td>
+        </tr>
+<% }; %>
+    </table>
+    <p><input class="button" type="submit" name="doit" value="Add"></p>
+</form>
+
+<p class="outer-button back"><a class="button" href="/eshop/order">Back</a></p>
+
+<%- include("../footer"); %>

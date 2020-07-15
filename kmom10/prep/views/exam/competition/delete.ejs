@@ -1,0 +1,30 @@
+<%- include("../header", {title: title, siteRoute: siteRoute}); %>
+
+<h1>Delete</h1>
+
+<p>These are the details for competition <%= item %>.</p>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<% res = res[0] %>
+<form class="narrow center form-stack" method="post" action="<%= siteRoute %>/competition/delete">
+    <fieldset>
+        <label class="center stack" for="id">Id</label>
+        <input class="narrow-field center" id="id" type="text" name="id" readonly value="<%= res.id %>">
+
+        <label class="center stack" for="name">Name</label>
+        <input class="wide-field center" id="name" type="text" name="name" readonly value="<%= res.name %>">
+
+        <label class="center stack" for="comp_date">Date</label>
+        <input class="wide-field center" id="comp_date" type="date" name="comp_date" readonly value="<%= res.competiton_date %>">
+
+        <label class="center stack" for="details">Details</label>
+        <textarea class="text-field center" id="details"  name="details" readonly><%= res.details %></textarea>
+
+        <input class="button" type="submit" name="doit" value="Delete">
+    </fieldset>
+</form>
+
+<p class="outer-button back"><a class="button" href="<%= siteRoute %>/competition/read">Back</a></p>
+
+<%- include("../footer"); %>

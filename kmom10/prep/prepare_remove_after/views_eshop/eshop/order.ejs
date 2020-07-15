@@ -1,0 +1,42 @@
+<%- include("header", {title: title}); %>
+
+<h1>Orders</h1>
+
+<p>Here are all the orders.</p>
+
+<pre><%#= JSON.stringify(res, null, 4) %></pre>
+
+<table class="wide center">
+    <tr>
+        <th>ID</th>
+        <th>Created</th>
+        <th>Customer ID</th>
+        <th>Name</th>
+        <th>Rows</th>
+        <th>Status</th>
+        <th>View order</th>
+        <th>Products</th>
+        <th>Place order</th>
+        <th>See picklist</th>
+        <th>View invoice</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td class="center"><%= row.id %></td>
+        <td class="center"><%= row.created %></td>
+        <td class="center"><%= row.kund_id %></td>
+        <td class="center"><%= row.kund_namn %></td>
+        <td class="center"><%= row.order_rader %></td>
+        <td class="center"><%= row.order_status %></td>
+        <td class="center"><a href="/eshop/order/view_order/<%= row.id %>"><i class="fas fa-info"></i></a></td>
+        <td class="center"><a href="/eshop/order/build/<%= row.id %>"><i class="fas fa-plus"></i></a></td>
+        <td class="center"><a href="/eshop/order/place/<%= row.id %>"><i class="fas fa-shopping-cart"></i></a></td>
+        <td class="center"><a href="/eshop/order/plocklista/<%= row.id %>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+        <% if(row.order_status == 'Skickad') { %><td class="center"><a href="/eshop/order/invoice/<%= row.id %>"><i class="fas fa-file-invoice"></i></a></td><% } else { %><td>Ej klar</td><% } %>
+    </tr>
+<% }; %>
+</table>
+
+<p class="outer-button"><a class="button" href="/eshop/order/create">Create order</a></p>
+
+<%- include("footer"); %>

@@ -1,0 +1,20 @@
+<%- include("../header", {title: title}); %>
+
+<h1>Choose the categories for product <%=product%></h1>
+
+<pre><%#= JSON.stringify(cat[0].kategori, null, 4) %></pre>
+
+<form class="narrow center bigger" method="post" action="/eshop/product/add_category">
+    <fieldset>
+        <input type="hidden" name="id" value="<%= product %>">
+<% for (const row of res) { %>
+        <input type="checkbox" name="categories" value="<%= row.typ %>"<%
+        for (const c in cat) { if (cat[c].kategori == row.typ) { %> checked <% }} %>><%= row.typ %><br>
+<% }; %>
+        <input class="button" type="submit" name="doit" value="Update">
+    </fieldset>
+</form>
+
+<p class="outer-button back"><a class="button" href="/eshop/product/view">Back</a></p>
+
+<%- include("../footer"); %>

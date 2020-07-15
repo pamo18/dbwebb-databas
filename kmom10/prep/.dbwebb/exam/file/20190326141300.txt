@@ -1,0 +1,22 @@
+20190326141300
+.
+total 56
+drwxr-xr-x  3 office  staff    96 Mar 26 14:13 .dbwebb
+-rw-r--r--  1 office  staff  6375 Mar 26 14:13 INSTRUKTION_2018-03-21_upplevelse.md
+-rw-r--r--  1 office  staff  7468 Mar 26 14:13 INSTRUKTION_2018-05-31_det-stora-slaget-om-tartan.md
+-rw-r--r--  1 office  staff  7764 Mar 26 14:13 INSTRUKTION_2019-08-31_en-japansk-smakresa.md
+-rw-r--r--  1 office  staff  3852 Mar 26 14:13 README_FIRST.md
+./.dbwebb
+total 0
+drwxr-xr-x  5 office  staff  160 Mar 26 14:13 exam
+./.dbwebb/exam
+total 8
+drwxr-xr-x  3 office  staff  96 Mar 26 14:13 file
+-rw-r--r--  1 office  staff  35 Mar 26 14:13 id.md
+drwxr-xr-x  3 office  staff  96 Mar 26 14:13 receipt
+./.dbwebb/exam/file
+total 8
+-rw-r--r--  1 office  staff  687 Mar 26 14:13 20190326141300.txt
+./.dbwebb/exam/receipt
+total 8
+-rw-r--r--  1 office  staff  583 Mar 26 14:13 20190326131259.md

@@ -1,0 +1,39 @@
+<%- include("header", {title: title, siteRoute: siteRoute}); %>
+
+<h1>Search the log</h1>
+
+<form class="wide center gap" method="post" action="<%= siteRoute %>/search/">
+    <fieldset>
+        <label for="filter">Search</label>
+        <input id="filter" type="text" name="filter">
+        <input class="button" type="submit" name="doit" value="Search">
+    </fieldset>
+</form>
+
+<table class="wide center fixed">
+    <tr>
+        <th>ID</th>
+        <th>Kategory</th>
+        <th>Org. ID</th>
+        <th>Org Name</th>
+        <th>Person ID</th>
+        <th>Person Name</th>
+        <th>Level</th>
+        <th>What</th>
+    </tr>
+<% for (const row of res) { %>
+    <tr>
+        <td class="center"><%= row.logg_id %></td>
+        <td class="center"><%= row.kategori_typ %></td>
+        <td class="center"><%= row.org_id %></td>
+        <td class="center"><%= row.org_namn %></td>
+        <td class="center"><%= row.person_id %></td>
+        <td class="center"><%= row.person_namn %></td>
+        <td class="center"><%= row.niva %></td>
+        <td class="center"><%= row.vad %></td>
+    </tr>
+<% }; %>
+</table>
+
+
+<%- include("footer"); %>
